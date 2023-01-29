@@ -7,6 +7,9 @@ tailwind.config = {
           200: "#166534",
         },
       },
+      boxShadow: {
+        custom: "1px 1px 1px 1px #d6d6d6",
+      },
     },
   },
 };

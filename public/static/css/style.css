@@ -3,3 +3,10 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.mark-active {
+  display: block;
+}
+.bar-active {
+  display: none;
+}

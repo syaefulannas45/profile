@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Development</title>
+    <title>Android Developer Community</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
@@ -15,8 +15,11 @@
     <!-- Custom CSS Tailwind -->
     <style type="text/tailwindcss">
       @layer utilities {
-        .content-auto {
-          content-visibility: auto;
+        .mark-active {
+          @apply block;
+        }
+        .bar-active {
+          @apply hidden;
         }
       }
     </style>
@@ -32,12 +35,18 @@
   <body>
     <header>
       <!-- Navbar Section -->
-      <section id="navbar" class="flex w-full justify-between px-[120px] py-[15px] items-center shadow-sm fixed">
-        <img src="images/logo.svg" alt="logo" class="w-[185px]" />
+      <section id="navbar" class="lg:flex w-full lg:justify-between lg:px-[120px] py-[15px] lg:items-center shadow-sm fixed px-4">
+        <div class="flex justify-between items-center text-3xl">
+          <img src="images/logo.svg" alt="logo" class="w-[185px]" />
+          <div onclick="setToggle()" class="cursor-pointer">
+            <i id="bar" class="fa-solid fa-bars lg:hidden block"></i>
+            <i class="fa-solid fa-xmark lg:hidden hidden" id="mark"></i>
+          </div>
+        </div>
         <nav>
-          <ul class="flex space-x-[55px]">
+          <ul class="lg:flex lg:space-x-[55px] lg:space-y-0 space-y-[10px]" id="navbar">
             <li class="text-green-100"><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
+            <li class="active:text-green-100"><a href="#about">About</a></li>
             <li><a href="/">Project</a></li>
             <li><a href="/">Contact</a></li>
           </ul>
@@ -46,7 +55,7 @@
     </header>
     <main>
       <!-- Hero Section -->
-      <section id="hero" class="flex w-full items-center justify-center h-screen px-[120px]">
+      <section id="hero" class="lg:flex w-full items-center justify-center h-screen lg:px-[120px] px-4 pt-[100px]">
         <div class="w-2/4">
           <h1 class="text-green-100 font-bold text-[48px]">
             Android Developer <br />
@@ -62,12 +71,40 @@
         </div>
         <div class="w-2/4"></div>
       </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <h1 class="text-[48px] font-bold text-green-100 text-center">Android Developer Community Cirebon</h1>
+        <p class="text-[20px] text-center">Internal organisation at STMIK IKMI Cirebon</p>
+        <div class="w-full flex mt-[60px] px-[120px] items-center">
+          <div class="w-2/4">
+            <p class="text-[20px] leading-[30px]">
+              We are an organization that focuses on developing <br />
+              the technology for websites and androids. <br />
+              <br />
+
+              We have been standing since October 25, 2019, <br />
+              founded by Taufik Hidayat. Right now, we're the 3rd <br />
+              year since the founding of Android Developer Community (ADCOM). <br />
+              <br />
+
+              The technology we're using is:
+            </p>
+            <div id="aboutleft" class="flex flex-wrap space-x-[25px]"></div>
+          </div>
+          <div class="w-2/4 flex space-x-[15px] pb-[100px]">
+            <img src="/images/about/bg-1.svg" alt="bg" />
+            <div class="flex-col space-y-[10px]"><img src="/images/about/bg-2.svg" alt="bg" /> <img src="/images/about/bg-3.svg" alt="bg" /></div>
+            <img src="/images/about/bg-4.svg" alt="bg" />
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
   <!-- Config CSS Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="static/js/config.tailwind.js"></script>
+  <script src="static/js/tailwind.config.js"></script>
 
   <!-- Javascript -->
   <script src="static/js/javascript.js"></script>

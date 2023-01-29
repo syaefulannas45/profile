@@ -99,8 +99,9 @@ function loopImageProject(url, increment) {
 
 imagesProject.forEach((image) => {
   loopImageProject(image.url, image.id);
-  getProjectImg.addEventListener("click", () => {
-    const modal = `<div class="absolute">test</div>`;
-    getProjectImg.insertAdjacentHTML("afterbegin", modal);
-  });
+  
+});
+getProjectImg.addEventListener("click", () => {
+  const modal = `<div class="absolute">test</div>`;
+  getProjectImg.insertAdjacentHTML("afterbegin", modal);
 });

@@ -21,8 +21,12 @@
         .bar-active {
           @apply hidden;
         }
+        .navbar-fixed {
+          @apply fixed z-[9999] bg-white bg-opacity-80 backdrop-blur-sm shadow-navbar;
+        }
       }
     </style>
+
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -31,13 +35,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <!-- Navbar Section -->
-      <section id="navbar" class="lg:flex w-full lg:justify-between lg:px-[120px] py-[15px] lg:items-center shadow-sm fixed px-4">
+      <section id="navbar" class="lg:flex w-full lg:justify-between lg:px-[120px] py-[15px] lg:items-center shadow-sm fixed px-4 z-[999999]">
         <div class="flex justify-between items-center text-3xl">
-          <img src="images/logo.svg" alt="logo" class="w-[185px]" />
+          <img src="images/logo.png" alt="logo" class="w-[185px]" />
           <div onclick="setToggle()" class="cursor-pointer">
             <i id="bar" class="fa-solid fa-bars lg:hidden block"></i>
             <i class="fa-solid fa-xmark lg:hidden hidden" id="mark"></i>
@@ -56,7 +63,7 @@
     <main>
       <!-- Hero Section -->
       <section id="hero" class="lg:flex w-full items-center justify-center h-screen lg:px-[120px] px-4 pt-[100px]">
-        <div class="w-2/4">
+        <div class="w-2/4 pt-[100px]">
           <h1 class="text-green-100 font-bold text-[48px]">
             Android Developer <br />
             Community Cirebon
@@ -65,11 +72,14 @@
             We are an organization that focuses on developing <br />
             the technology for websites and androids
           </p>
-          <button class="bg-green-200 text-white px-[25px] py-[10px] mt-[28px] rounded-[6px]">
+          <button class="bg-green-200 text-white px-[25px] py-[10px] mt-[28px] rounded-[6px] shadow-button">
             <a href="/">See More <i class="fa-solid fa-arrow-right"></i></a>
           </button>
         </div>
-        <div class="w-2/4"></div>
+        <div class="w-2/4 relative">
+          <img src="/images/hero/vector.svg" alt="vector" class="absolute bottom-[-370px] pl-[30px] left-[30px]" />
+          <img src="/images/hero/hero.svg" alt="images" class="absolute z-10 bottom-[-250px] pl-[100px]" />
+        </div>
       </section>
 
       <!-- About Section -->
@@ -77,7 +87,7 @@
         <h1 class="text-[48px] font-bold text-green-100 text-center">Android Developer Community Cirebon</h1>
         <p class="text-[20px] text-center">Internal organisation at STMIK IKMI Cirebon</p>
         <div class="w-full flex mt-[60px] px-[120px] items-center">
-          <div class="w-2/4">
+          <div data-aos="fade-right" class="w-2/4">
             <p class="text-[20px] leading-[30px]">
               We are an organization that focuses on developing <br />
               the technology for websites and androids. <br />
@@ -90,17 +100,76 @@
 
               The technology we're using is:
             </p>
-            <div id="aboutleft" class="flex flex-wrap space-x-[25px]"></div>
+            <div id="aboutleft" class="flex flex-wrap space-x-[40px]"></div>
           </div>
-          <div class="w-2/4 flex space-x-[15px] pb-[100px]">
+          <div data-aos="fade-left" class="w-2/4 flex space-x-[15px] pb-[100px] pl-[30px] relative">
             <img src="/images/about/bg-1.svg" alt="bg" />
-            <div class="flex-col space-y-[10px]"><img src="/images/about/bg-2.svg" alt="bg" /> <img src="/images/about/bg-3.svg" alt="bg" /></div>
+            <div class="flex-col space-y-[25px]"><img src="/images/about/bg-2.svg" alt="bg" /> <img src="/images/about/bg-3.svg" alt="bg" /></div>
             <img src="/images/about/bg-4.svg" alt="bg" />
+          </div>
+          <img src="/images/about/vector.svg" alt="vector" class="absolute right-0" />
+        </div>
+      </section>
+
+      <!-- Project Section -->
+      <section id="project" class="lg:mt-[120px] px-[120px]">
+        <h1 class="text-green-100 text-[48px] font-bold text-center">Our Project</h1>
+        <p class="text-[20px] text-center">Next this not shut rethoric best had well of was on facility of the present.</p>
+        <div class="flex flex-wrap justify-evenly mt-[30px] relative" id="images-project"></div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="bg-green-100 mt-[550px] relative px-[120px] relative h-[420px]">
+        <div class="w-full flex justify-between bg-white py-[100px] px-[100px] border relative bottom-[320px] shadow-lg rounded-[8px]">
+          <div class="w-2/4">
+            <h1 class="text-[32px] font-bold text-green-100">GET IN TOUCH</h1>
+            <div class="flex-col space-y-[25px] text-[15px] mt-[35px]">
+              <p>
+                <i class="fa-solid fa-location-dot text-[20px]"></i>
+                <span> &nbsp; Majasem, Kota Cirebon</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-phone text-[20px]"></i>
+                <span> &nbsp; +62 123 4567 8910</span>
+              </p>
+              <p class="flex space-x-[40px] text-[20px]">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-dribbble"></i>
+              </p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.2731800839642!2d108.52486781471951!3d-6.736491095130134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f1dfcef42566d%3A0x3e146375f0046403!2sSekolah%20Tinggi%20Manajemen%20Informatika%20dan%20Komputer%20IKMI!5e0!3m2!1sid!2sid!4v1674977787432!5m2!1sid!2sid"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="w-[425px] h-[210px] rounded-[8px]"
+              ></iframe>
+            </div>
+          </div>
+          <div class="w-2/4">
+            <h1 class="font-medium text-[20px]">Leave us message</h1>
+            <form class="mt-[20px] flex-col space-y-[25px]">
+              <input type="text" placeholder="Name" class="bg-input-100 py-[10px] w-full pl-[30px] rounded-[8px] placeholder:text-input-200 outline-input-200" />
+              <input type="text" placeholder="Email" class="bg-input-100 py-[10px] w-full pl-[30px] rounded-[8px] placeholder:text-input-200 outline-input-200" />
+              <textarea class="bg-input-100 py-[10px] w-full pl-[30px] rounded-[8px] text-input-200 outline-input-200 h-[200px]">Write your message here</textarea>
+              <button class="bg-green-200 text-center w-full py-[10px] text-white rounded-[6px]">Send</button>
+            </form>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <!-- Section Footer -->
+    <footer>
+      <section id="footer" class="flex justify-between px-[120px] py-[35px] items-center">
+        <p>Copyright © 2023</p>
+        <p>Android Developer Community</p>
+      </section>
+    </footer>
   </body>
   <!-- Config CSS Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -108,4 +177,10 @@
 
   <!-- Javascript -->
   <script src="static/js/javascript.js"></script>
+
+  <!-- Animate On Scrool -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

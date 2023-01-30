@@ -1,9 +1,10 @@
 let mainAbout = document.getElementById("about");
 
+
 const About = () => {
   return `
   <div class="relative pt-[100px] dark:bg-background-100">
-   <img src="/images/about/vector-1.svg" alt="vector" class="absolute lg:top-0 lg:left-0 animate-up animate-pulse" />
+   <img src="public//images/about/vector-1.svg" alt="vector" class="absolute lg:top-8 lg:left-0 animate-up animate-pulse" />
    <h1 class="text-[48px] font-bold bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-center">Android Developer Community Cirebon</h1>
         <p class="text-[20px] text-center dark:text-slate-100">Internal organisation at STMIK IKMI Cirebon</p>
         <div class="w-full flex mt-[60px] px-[120px] items-center">
@@ -23,8 +24,8 @@ const About = () => {
             <div id="aboutleft" class="flex flex-wrap space-x-[40px]"></div>
           </div>
           <div data-aos="fade-left" class="w-2/4 pb-[100px] flex justify-center relative">
-            <img src="/images/about/about.svg" alt="bg" class="relative z-10" />
-            <img src="/images/about/vector-2.svg" alt="vector" class="absolute lg:bottom-0 lg:right-[-20px] animate-pulse" />
+            <img src="public/images/about/about.svg" alt="bg" class="relative z-10" />
+            <img src="public/images/about/vector-2.svg" alt="vector" class="absolute lg:bottom-0 lg:right-[-20px] animate-pulse" />
         </div>
   </div>
      `;
@@ -33,31 +34,31 @@ mainAbout.insertAdjacentHTML("afterbegin", About());
 
 const imagesAbout = [
   {
-    url: "images/about/ex.svg",
+    url: "public/images/about/ex.svg",
   },
   {
-    url: "images/about/nodejs.svg",
+    url: "public/images/about/nodejs.svg",
   },
   {
-    url: "images/about/mongodb.svg",
+    url: "public/images/about/mongodb.svg",
   },
   {
-    url: "images/about/jquery.svg",
+    url: "public/images/about/jquery.svg",
   },
   {
-    url: "images/about/mysql.svg",
+    url: "public/images/about/mysql.svg",
   },
   {
-    url: "images/about/php.svg",
+    url: "public/images/about/php.svg",
   },
   {
-    url: "images/about/js.svg",
+    url: "public/images/about/js.svg",
   },
   {
-    url: "images/about/css.svg",
+    url: "public/images/about/css.svg",
   },
   {
-    url: "images/about/html.svg",
+    url: "public/images/about/html.svg",
   },
 ];
 let getAboutLeft = document.getElementById("aboutleft");

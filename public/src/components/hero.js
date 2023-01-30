@@ -17,10 +17,10 @@ const Hero = () => {
             </button>
           </div>
           <div class="w-2/4 relative flex justify-center">
-            <img src="/images/hero/hero.svg" alt="images" class="h-[600px]" />
-            <img src="/images/hero/elips-1.svg" alt="images" class="absolute lg:left-[-100px] lg:top-[100px] animate-pulse" />
-            <img src="/images/hero/elips-2.svg" alt="images" class="absolute lg:left-[-15px] lg:bottom-[100px] animate-bounce" />
-            <img src="/images/hero/elips-3.svg" alt="images" class="lg:relative" />
+            <img src="public/images/hero/hero.svg" alt="images" class="h-[600px]" />
+            <img src="public/images/hero/elips-1.svg" alt="images" class="absolute lg:left-[-100px] lg:top-[100px] animate-pulse" />
+            <img src="public/images/hero/elips-2.svg" alt="images" class="absolute lg:left-[-15px] lg:bottom-[100px] animate-bounce" />
+            <img src="public/images/hero/elips-3.svg" alt="images" class="lg:relative" />
           </div>
         </div>
         `;

@@ -17,7 +17,7 @@ tailwind.config = {
         background: {
           100: "#072852",
           200: "#153B6A",
-          300: "rgba(255, 255, 255, 0.1)",
+          300: "#1E4D85",
         },
       },
       boxShadow: {

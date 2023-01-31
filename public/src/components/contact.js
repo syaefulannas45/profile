@@ -2,7 +2,10 @@ let mainContact = document.getElementById("contact");
 
 const Contact = () => {
   return `
-     <div class="bg-gradient-to-r from-blues-100 to-blues-200  relative px-[120px] relative h-[420px]">
+     <div class="relative px-[120px] relative h-[420px] dark:bg-background-100">
+     <img src="public/images/contact/elips.svg" class="absolute top-[-380px] left-10 hover:animate-pulse" />
+     <img src="public/images/contact/vector-1.svg" class="absolute top-[-280px] right-8 hover:animate-pulse" />
+     <img src="public/images/contact/vector-2.svg" class="absolute top-[-210px] left-0 hover:animate-pulse" />
           <div
             class="w-full flex justify-between bg-white py-[100px] px-[100px] border relative bottom-[320px] shadow-lg rounded-[8px] dark:bg-background-200 dark:border-0">
             <div class="w-2/4">

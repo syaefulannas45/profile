@@ -22,6 +22,8 @@ const About = () => {
               The technology we're using is:
             </p>
             <div id="aboutleft" class="flex flex-wrap space-x-[40px]"></div>
+            <img src="public/images/about/elips-1.svg" class="absolute right-10 bottom-0" />
+            <img src="public/images/about/elips-2.svg" class="absolute right-[-15px] bottom-10" />
           </div>
           <div data-aos="fade-left" class="w-2/4 pb-[100px] flex justify-center relative">
             <img src="public/images/about/about.svg" alt="bg" class="relative z-10" />

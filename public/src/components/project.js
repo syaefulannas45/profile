@@ -10,6 +10,10 @@ const Project = () => {
      <img src="public/images/project/vector-2.svg" class="absolute bottom-[450px] left-4 animate-pulse"/>
      <img src="public/images/project/vector-3.svg" class="absolute bottom-[500px] left-12 animate-pulse"/>
      <img src="public/images/project/vector-4.svg" class="absolute top-[140px] left-[38%] animate-bounce"/>
+     <img src="public/images/project/vector-5.svg" class="absolute top-[510px] left-[32%]"/>
+     <img src="public/images/project/vector-6.svg" class="absolute top-[150px] left-[61%]"/>
+     <img src="public/images/project/vector-7.svg" class="absolute bottom-[300px] left-[70%]"/>
+     <img src="public/images/project/vector-8.svg" class="absolute top-[500px] left-[88%] animate-pulse"/>
  </div>
      `;
 };
@@ -46,7 +50,7 @@ const imagesProject = [
 let getProjectImg = document.getElementById("images-project");
 
 function loopImageProject(url, increment) {
-  const image = `<div id=${increment} class="cursor-pointer before:hover:content-['See_More'] before:hover:absolute  before:hover:text-white before:hover:bg-green-200 before:hover:py-[10px] before:hover:px-[10px] before:hover:rounded-[10px]"><img src=${url} alt="img" class="w-[400px] h-[300px] my-[10px] " /></div>`;
+  const image = `<div id=${increment} class="cursor-pointer before:hover:content-['See_More'] before:hover:absolute  before:hover:text-white before:hover:bg-green-200 before:hover:py-[10px] before:hover:px-[10px] before:hover:rounded-[10px] relative z-10"><img src=${url} alt="img" class="w-[400px] h-[300px] my-[10px] " /></div>`;
 
   getProjectImg.insertAdjacentHTML("afterbegin", image);
 }

@@ -22,7 +22,7 @@ const About = () => {
           <div data-aos="fade-left" class="lg:w-2/4 lg:pb-[150px] flex justify-center relative w-full">
             <img src="public/images/about/about.svg" alt="bg" class="z-10 absolute h-[270px] lg:top-[-150px] lg:left-[100px]" />
 
-            <img src="public/images/about/vector-2.svg" alt="vector" class="absolute lg:bottom-[-100px] lg:right-[-20px] animate-pulse bottom-[-270px] right-0 mobile:h-[200px]" />
+            <img src="public/images/about/vector-2.svg" alt="vector" class="absolute lg:bottom-[-100px] lg:right-[-20px] animate-pulse bottom-[-290px] right-0 mobile:h-[200px]" />
           </div>
         </div>
       </div>

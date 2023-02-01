@@ -33,6 +33,9 @@ tailwind.config = {
           "50%": { transform: "rotate(-15deg)" },
         },
       },
+      screens: {
+        "mobile": { max: "390px" },
+      },
     },
   },
 };

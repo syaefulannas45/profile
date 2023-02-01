@@ -11,7 +11,7 @@ const Navbar = () => {
             <div class="my-[5px] mx-2 flex h-8 w-16 cursor-pointer items-center  rounded-full bg-gradient-to-r from-blues-300 to-blues-400 px-1">
               <div class="toggle-circle-mobile flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-t from-blues-100 to-blues-200 transition duration-300 ease-in-out">
                 <i id="sun" class="fa-solid fa-sun text-sm text-yellow-500 dark:hidden"></i>
-                <i class="fa-solid fa-moon text-md hidden text-slate-700 dark:block dark:text-slate-800"></i>
+                <i class="fa-solid fa-moon text-sm hidden text-slate-700 dark:block dark:text-slate-800"></i>
               </div>
             </div>
           </label>

@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
         <img src="public/images/logo1.svg" alt="logo" class="w-[185px] dark:hidden" />
         <img src="public/images/logo2.svg" alt="logo" class="hidden w-[185px] dark:block" />
-        <div id="toggle" class="cursor-pointer w-[35%]">
+        <div id="toggle" class="cursor-pointer">
           <i id="bar" class="fa-solid fa-bars block lg:hidden"></i>
           <i id="mark" class="fa-solid fa-xmark hidden lg:hidden"></i>
         </div>

@@ -6,10 +6,10 @@ const Project = () => {
       <h1 class="bg-gradient-to-t from-blues-100 to-blues-200 bg-clip-text text-transparent lg:text-[48px] font-bold text-center relative z-10 text-[38px]">Our Project</h1>
      <p class="text-[16px] lg:text-[20px] text-center dark:text-slate-100 relative z-10">Next this not shut rethoric best had well of was on facility of the present.</p>
      <div class="flex flex-wrap justify-evenly mt-[30px] relative" id="images-project"></div>
-     <img src="public/images/project/vector-1.svg" class="absolute top-0 left-[-30px] animate-ping"/>
+     <img src="public/images/project/vector-1.svg" class="absolute lg:top-0 left-[-30px] animate-ping mobile:h-[100px] top-[100px] "/>
      <img src="public/images/project/vector-2.svg" class="absolute bottom-[450px] left-4 animate-pulse"/>
      <img src="public/images/project/vector-3.svg" class="absolute bottom-[500px] left-12 animate-pulse"/>
-     <img src="public/images/project/vector-4.svg" class="absolute top-[140px] left-[38%] animate-bounce"/>
+     <img src="public/images/project/vector-4.svg" class="absolute top-4 left-[32%] lg:top-[140px] lg:left-[38%] animate-bounce"/>
      <img src="public/images/project/vector-5.svg" class="absolute top-[510px] left-[32%]"/>
      <img src="public/images/project/vector-6.svg" class="absolute top-[150px] left-[61%]"/>
      <img src="public/images/project/vector-7.svg" class="absolute bottom-[300px] left-[70%]"/>
@@ -75,11 +75,11 @@ function loopImageProject(url, id, title, desc) {
             data-bs-target="#${id}"
           />
           <div class="relative">
-          <p class="absolute mobile:text-[14px] text-slate-800 bg-gradient-to-r from-blues-100 to-blues-200 lg:py-[10px] lg:px-[20px] rounded-full lg:top-[-190px] lg:left-[35%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
+          <p class="absolute mobile:text-[12px] text-slate-800 bg-gradient-to-r from-blues-100 to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[20px] rounded-full lg:top-[-190px] top-[-70px] left-[25%] lg:left-[36%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
             data-bs-target="#${id}">See More</p>
           </div>
           <div
-          class="modal fade fixed top-0 left-[25%] hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto absolute"
+          class="modal fade fixed top-0 lg:left-[25%] hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto absolute"
           id="${id}"
           tabindex="-1"
           aria-labelledby="exampleModalCenterTitle"
@@ -87,7 +87,7 @@ function loopImageProject(url, id, title, desc) {
           role="dialog"
         >
           <div
-            class="modal-dialog modal-dialog-centered modal-xl absolute z-[10000] w-auto pointer-events-none"
+            class="modal-dialog modal-dialog-centered lg:modal-xl modal-md absolute z-[10000] w-auto pointer-events-none"
           >
             <div
               class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current"

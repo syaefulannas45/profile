@@ -2,7 +2,7 @@ let mainAbout = document.getElementById("about");
 
 const About = () => {
   return `
-  <div class="relative pt-[200px] lg:pt-[100px] dark:bg-background-100 px-4 lg:px-[120px] w-full overflow-hidden pb-[240px] lg:p-0">
+  <div class="relative pt-[200px] lg:pt-[100px] dark:bg-background-100 px-4 lg:px-[120px] w-full overflow-hidden pb-[340px] lg:pb-10">
         <img src="public/images/about/vector-1.svg" alt="vector" class="absolute lg:top-8 lg:left-0 animate-up origin-top-left top-[60px] left-0 z-40 mobile:h-[300px]" />
         <h1 class="lg:text-[48px] font-bold bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-center text-[35px]">Nawasena Group</h1>
         <p class="text-[15px] lg:text-[20px] text-center dark:text-slate-100">A Growing startup from STMIK IKMI CIrebon</p>
@@ -18,6 +18,7 @@ const About = () => {
             <div id="aboutleft" class="flex lg:space-x-[40px] px-[30px] lg:p-0 justify-evenly lg:justify-start flex-wrap w-full"></div>
             <img src="public/images/about/elips-1.svg" class="absolute lg:right-10 lg:bottom-0 bottom-[350px] right-[50px]" />
             <img src="public/images/about/elips-2.svg" class="absolute lg:right-[-15px] lg:bottom-10 bottom-[380px] right-0" />
+            <img src="public/images/about/elips-3.svg" class="lg:hidden absolute left-[-20px] top-[400px]" />
           </div>
           <div data-aos="fade-left" class="lg:w-2/4 lg:pb-[150px] flex justify-center relative w-full">
             <img src="public/images/about/about.svg" alt="bg" class="z-10 absolute h-[270px] lg:top-[-150px] lg:left-[100px]" />

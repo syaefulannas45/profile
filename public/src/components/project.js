@@ -2,9 +2,9 @@ let mainProject = document.getElementById("project");
 
 const Project = () => {
   return `
- <div class="lg:pt-[120px] px-[120px] relative dark:bg-background-100 pb-[500px]">
-      <h1 class="bg-gradient-to-t from-blues-100 to-blues-200 bg-clip-text text-transparent text-[48px] font-bold text-center relative z-10">Our Project</h1>
-     <p class="text-[20px] text-center dark:text-slate-100 relative z-10">Next this not shut rethoric best had well of was on facility of the present.</p>
+ <div class="lg:pt-[120px] px-4 lg:px-[120px] relative dark:bg-background-100 pb-[500px]">
+      <h1 class="bg-gradient-to-t from-blues-100 to-blues-200 bg-clip-text text-transparent lg:text-[48px] font-bold text-center relative z-10 text-[38px]">Our Project</h1>
+     <p class="text-[16px] lg:text-[20px] text-center dark:text-slate-100 relative z-10">Next this not shut rethoric best had well of was on facility of the present.</p>
      <div class="flex flex-wrap justify-evenly mt-[30px] relative" id="images-project"></div>
      <img src="public/images/project/vector-1.svg" class="absolute top-0 left-[-30px] animate-ping"/>
      <img src="public/images/project/vector-2.svg" class="absolute bottom-[450px] left-4 animate-pulse"/>
@@ -65,16 +65,20 @@ function loopImageProject(url, id, title, desc) {
   const image = `
 
         <div
-          class="cursor-pointer before:hover:content-['See_More'] before:hover:absolute before:hover:text-white before:hover:bg-green-200 before:hover:py-[10px] before:hover:px-[10px] before:hover:rounded-[10px] before:hover:z-20"
+          class="cursor-pointer"
         >
           <img
             src="./public/images/project/${url}.svg"
             alt="img"
-            class="w-[400px] h-[300px] my-[10px]  relative z-10"
+            class="lg:w-[400px] lg:h-[300px] w-[145px] h-[90px] my-[10px]  relative z-10"
             data-bs-toggle="modal"
             data-bs-target="#${id}"
           />
-                  <div
+          <div class="relative">
+          <p class="absolute mobile:text-[14px] text-slate-800 bg-gradient-to-r from-blues-100 to-blues-200 lg:py-[10px] lg:px-[20px] rounded-full lg:top-[-190px] lg:left-[35%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
+            data-bs-target="#${id}">See More</p>
+          </div>
+          <div
           class="modal fade fixed top-0 left-[25%] hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto absolute"
           id="${id}"
           tabindex="-1"

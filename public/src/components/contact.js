@@ -52,7 +52,7 @@ const Contact = () => {
                   class="bg-input-100 py-[10px] w-full pl-[30px] rounded-[8px] placeholder:text-input-200 outline-input-200" />
                 <textarea
                   class="bg-input-100 py-[10px] w-full pl-[30px] rounded-[8px] text-input-200 outline-input-200 h-[200px]">Write your message here</textarea>
-                <button type="button" onclick="alert()" class="bg-gradient-to-r from-blues-100 to-blues-200 text-center w-full py-[10px] text-white rounded-[6px]">Send</button>
+                <button type="button" onclick="alert()" class="bg-gradient-to-r from-blues-100 to-blues-200 text-center w-full py-[10px] text-white rounded-[6px] font-bold">Send</button>
               </form>
             </div>
           </div>

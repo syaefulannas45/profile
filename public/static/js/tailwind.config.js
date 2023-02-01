@@ -18,6 +18,7 @@ tailwind.config = {
           100: "#072852",
           200: "#153B6A",
           300: "#1E4D85",
+          400: "#E3E3E3",
         },
       },
       boxShadow: {
@@ -42,7 +43,7 @@ tailwind.config = {
           "0%": { transform: "rotate(-360deg)" },
         },
         left: {
-          "0%": { transform: "translatex(50px)" },
+          "0%": { transform: "translatex(30px)" },
         },
       },
       screens: {

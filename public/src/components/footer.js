@@ -2,19 +2,18 @@ let footer = document.getElementById("footer");
 
 const Footer = () => {
   return `
-     <div class="flex px-[120px] py-[35px] items-center dark:bg-background-300 dark:text-slate-100 w-full space-x-10">
+     <div class="flex px-[120px] py-[35px] dark:bg-background-300 dark:text-slate-100 w-full space-x-10 bg-background-400">
           <div class="w-[25%]">
           <img src="public/images/logo1.svg" class="dark:hidden"/>
           <img src="public/images/logo2.svg" class="hidden dark:block"/>
           <p class="text-[20px] text-slate-700 dark:text-slate-100">Seinjak sejejak setujuan</p>
           </div>
           <div class="w-[25%]">
-          <h1 class="bg-gradient-to-t from-blues-300 to-blues-400 bg-clip-text text-transparent text-[30px] border-b-2 font-semibold">About Us</h1>
+          <h1 class="bg-gradient-to-r from-blues-300 to-blues-400 bg-clip-text text-transparent text-[30px] border-b-2 font-semibold">About Us</h1>
           <ul class="flex-col space-y-2 cursor-pointer pt-2">
-          <li href="/">Web Design</li>
-          <li href="/">App Design</li>
-          <li href="/">Social Media Manage</li>
-          <li href="/">Market Analysis Project</li>
+          <li href="/">Aprilia Janatu Marwa</li>
+          <li href="/">Muhammad Fitrian Shousyade</li>
+          <li href="/">Syaeful Annas</li>
           </ul>
           </div>
           <div class="w-[25%]">

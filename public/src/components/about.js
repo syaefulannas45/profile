@@ -15,7 +15,7 @@ const About = () => {
 
               Teknologi yang kami gunakan:
             </p>
-            <div id="aboutleft" class="flex flex-wrap lg:space-x-[40px] px-[10px] lg:p-0 justify-evenly lg:justify-start"></div>
+            <div id="aboutleft" class="flex lg:space-x-[40px] px-[30px] lg:p-0 justify-evenly lg:justify-start flex-wrap"></div>
             <img src="public/images/about/elips-1.svg" class="absolute lg:right-10 lg:bottom-0 bottom-[350px] right-[50px]" />
             <img src="public/images/about/elips-2.svg" class="absolute lg:right-[-15px] lg:bottom-10 bottom-[380px] right-0" />
           </div>

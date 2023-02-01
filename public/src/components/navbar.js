@@ -4,7 +4,7 @@ const Navbar = () => {
   let Navigasi = ["Home", "About", "Project", "Contact"];
   return `
   <div id="fixed" class="fixed z-[999999] w-full py-[15px] px-4 shadow-sm lg:flex lg:items-center lg:justify-between lg:px-[120px] py-4">
-      <div class="flex items-center text-3xl flex-row-reverse lg:flex-row w-full lg:justify-between  space-x-[50px]">
+      <div class="flex items-center text-3xl flex-row-reverse lg:flex-row w-full lg:justify-between  space-x-[100px]">
         <div class="flex items-center lg:hidden w-[35%]">
           <input type="checkbox" class="hidden" id="lamp-toggle-mobile" onclick="lampToggle()" />
           <label for="lamp-toggle-mobile">

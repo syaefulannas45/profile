@@ -2,8 +2,8 @@ let mainAbout = document.getElementById("about");
 
 const About = () => {
   return `
-  <div class="relative pt-[200px] lg:pt-[100px] dark:bg-background-100 px-4 lg:px-[120px] w-full overflow-hidden pb-[240px]">
-        <img src="public/images/about/vector-1.svg" alt="vector" class="absolute lg:top-8 lg:left-0 animate-up origin-top-left top-[70px] left-0 z-40 mobile:h-[300px]" />
+  <div class="relative pt-[200px] lg:pt-[100px] dark:bg-background-100 px-4 lg:px-[120px] w-full overflow-hidden pb-[240px] lg:p-0">
+        <img src="public/images/about/vector-1.svg" alt="vector" class="absolute lg:top-8 lg:left-0 animate-up origin-top-left top-[60px] left-0 z-40 mobile:h-[300px]" />
         <h1 class="lg:text-[48px] font-bold bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-center text-[35px]">Nawasena Group</h1>
         <p class="text-[15px] lg:text-[20px] text-center dark:text-slate-100">A Growing startup from STMIK IKMI CIrebon</p>
         <div class="w-full lg:flex pt-6 lg:pt-0 lg:mt-[80px] lg:items-center">
@@ -20,9 +20,9 @@ const About = () => {
             <img src="public/images/about/elips-2.svg" class="absolute lg:right-[-15px] lg:bottom-10 bottom-[380px] right-0" />
           </div>
           <div data-aos="fade-left" class="lg:w-2/4 lg:pb-[150px] flex justify-center relative w-full">
-            <img src="public/images/about/about.svg" alt="bg" class="z-10 absolute h-[270px] lg:top-[-50px] lg:left-[100px]" />
+            <img src="public/images/about/about.svg" alt="bg" class="z-10 absolute h-[270px] lg:top-[-150px] lg:left-[100px]" />
 
-            <img src="public/images/about/vector-2.svg" alt="vector" class="absolute lg:bottom-[-200px] lg:right-[-20px] animate-pulse bottom-[-250px] right-0 mobile:h-[200px]" />
+            <img src="public/images/about/vector-2.svg" alt="vector" class="absolute lg:bottom-[-100px] lg:right-[-20px] animate-pulse bottom-[-270px] right-0 mobile:h-[200px]" />
           </div>
         </div>
       </div>

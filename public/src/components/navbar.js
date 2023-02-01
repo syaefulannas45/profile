@@ -5,7 +5,8 @@ const Navbar = () => {
   return `
   <div id="fixed" class="lg:flex w-full lg:justify-between lg:px-[120px] py-[15px] lg:items-center shadow-sm fixed px-4 z-[999999]">
   <div class="flex justify-between items-center text-3xl">
-    <img src="public/images/logo.png" alt="logo" class="w-[185px]" />
+    <img src="public/images/logo1.svg" alt="logo" class="w-[185px] dark:hidden" />
+    <img src="public/images/logo2.svg" alt="logo" class="w-[185px] hidden dark:block" />
     <div id="toggle" class="cursor-pointer">
       <i id="bar" class="fa-solid fa-bars lg:hidden block"></i>
       <i id="mark" class="fa-solid fa-xmark lg:hidden hidden"></i>

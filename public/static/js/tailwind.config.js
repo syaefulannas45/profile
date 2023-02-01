@@ -29,8 +29,8 @@ tailwind.config = {
       },
       keyframes: {
         up: {
-          "0%,100%": { transform: "rotate(45deg) origin-top-left" },
-          "50%": { transform: "rotate(-45deg)" },
+          "0%,100%": { transform: "rotate(15deg) origin-top-left" },
+          "50%": { transform: "rotate(-15deg)" },
         },
       },
     },

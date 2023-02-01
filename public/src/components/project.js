@@ -65,17 +65,17 @@ function loopImageProject(url, id, title, desc) {
   const image = `
 
         <div
-          class="cursor-pointer before:hover:content-['See_More'] before:hover:absolute before:hover:text-white before:hover:bg-green-200 before:hover:py-[10px] before:hover:px-[10px] before:hover:rounded-[10px] relative z-10"
+          class="cursor-pointer before:hover:content-['See_More'] before:hover:absolute before:hover:text-white before:hover:bg-green-200 before:hover:py-[10px] before:hover:px-[10px] before:hover:rounded-[10px] before:hover:z-20"
         >
           <img
             src="./public/images/project/${url}.svg"
             alt="img"
-            class="w-[400px] h-[300px] my-[10px]"
+            class="w-[400px] h-[300px] my-[10px]  relative z-10"
             data-bs-toggle="modal"
             data-bs-target="#${id}"
           />
                   <div
-          class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade fixed top-0 left-[25%] hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto absolute"
           id="${id}"
           tabindex="-1"
           aria-labelledby="exampleModalCenterTitle"

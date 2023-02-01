@@ -75,7 +75,7 @@ function loopImageProject(url, id, title, desc) {
             data-bs-target="#${id}"
           />
           <div class="relative">
-          <p class="absolute mobile:text-[12px] text-slate-800 bg-gradient-to-r from-blues-100 to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[20px] rounded-full lg:top-[-190px] top-[-70px] left-[25%] lg:left-[36%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
+          <p class="absolute mobile:text-[10px] text-slate-800 bg-gradient-to-r from-blues-100 to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[20px] rounded-full lg:top-[-190px] top-[-70px] left-[25%] lg:left-[36%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
             data-bs-target="#${id}">See More</p>
           </div>
           <div

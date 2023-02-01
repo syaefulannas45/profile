@@ -10,7 +10,7 @@ const About = () => {
         <div class="w-full lg:flex pt-6 lg:pt-0 lg:mt-[80px] lg:items-center">
           <div data-aos="fade-right" class="lg:w-2/4 w-full">
             <p class="lg:text-[20px] leading-[30px] dark:text-slate-200 bg-clip-text text-[14px] relative z-40 text-slate-800 pt-[100px] lg:pt-0">
-              Nawasena Group merupakan start-up yang berfokus pada bidang web development <br>
+              Nawasena Group adalah start-up yang berfokus pada bidang web development <br><br>
 
               Nawasena sendiri berasal dari bahasa sansekerta yang berarti masa depan yang cerah <br><br>
 

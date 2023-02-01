@@ -10,8 +10,9 @@ window.onscroll = function () {
 
 const lampToggle = () => {
   const lampToggle = document.querySelector("#lamp-toggle");
+  const lampMobile = document.querySelector("#lamp-toggle-mobile");
   const html = document.querySelector("html");
-  if (lampToggle.checked) {
+  if (lampToggle.checked || lampMobile.checked) {
     html.classList.add("dark");
   } else {
     html.classList.remove("dark");

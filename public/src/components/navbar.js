@@ -3,9 +3,9 @@ let header = document.getElementById("navbar");
 const Navbar = () => {
   let Navigasi = ["Home", "About", "Project", "Contact"];
   return `
-  <div id="fixed" class="fixed z-[999999] w-full py-[15px] px-2 shadow-sm lg:flex lg:items-center lg:justify-between lg:px-[120px]">
+  <div id="fixed" class="fixed z-[999999] w-full py-[15px] px-4 shadow-sm lg:flex lg:items-center lg:justify-between lg:px-[120px]">
       <div class="flex items-center text-3xl flex-row-reverse lg:flex-row w-full lg:justify-between justify-around">
-        <div class="flex items-center lg:hidden w-[35%] justify-center">
+        <div class="flex items-center lg:hidden w-[35%] justify-end ">
           <input type="checkbox" class="hidden" id="lamp-toggle-mobile" onclick="lampToggle()" />
           <label for="lamp-toggle-mobile">
             <div class="my-[5px] mx-2 flex h-8 w-16 cursor-pointer items-center  rounded-full bg-gradient-to-r from-blues-300 to-blues-400 px-1">
@@ -16,9 +16,9 @@ const Navbar = () => {
             </div>
           </label>
         </div>
-        <img src="public/images/logo1.svg" alt="logo" class="lg:w-[185px] dark:hidden w-[35%] flex justify-center" />
-        <img src="public/images/logo2.svg" alt="logo" class="hidden lg:w-[185px] dark:block w-[35%] flex justify-center" />
-        <div id="toggle" class="cursor-pointer w-[35%] flex justify-center">
+        <img src="public/images/logo1.svg" alt="logo" class="lg:w-[185px] dark:hidden w-[35%]" />
+        <img src="public/images/logo2.svg" alt="logo" class="hidden lg:w-[185px] dark:block w-[35%]" />
+        <div id="toggle" class="cursor-pointer w-[35%] ">
           <i id="bar" class="fa-solid fa-bars block lg:hidden"></i>
           <i id="mark" class="fa-solid fa-xmark hidden lg:hidden"></i>
         </div>

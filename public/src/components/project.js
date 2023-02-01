@@ -11,7 +11,7 @@ const Project = () => {
      <img src="public/images/project/vector-3.svg" class="absolute bottom-[450px] left-10 animate-pulse"/>
      <img src="public/images/project/vector-4.svg" class="absolute top-4 left-[32%] lg:top-[140px] lg:left-[38%] animate-bounce"/>
      <img src="public/images/project/vector-5.svg" class="absolute top-[200px] mobile:h-[100px] hover:animate-pulse left-[32%]"/>
-     <img src="public/images/project/vector-6.svg" class="absolute mobile:h-[70px] top-[310px] left-[80%] lg:top-[150px] lg:left-[61%]"/>
+     <img src="public/images/project/vector-6.svg" class="absolute mobile:h-[70px] top-[310px] left-[75%] lg:top-[150px] lg:left-[61%]"/>
      <img src="public/images/project/vector-7.svg" class="absolute bottom-[300px] left-[70%] hidden lg:block"/>
      <img src="public/images/project/vector-8.svg hidden lg:block" class="absolute top-[500px] left-[88%] animate-pulse hidden lg:block"/>
  </div>
@@ -70,7 +70,7 @@ function loopImageProject(url, id, title, desc) {
           <img
             src="./public/images/project/${url}.svg"
             alt="img"
-            class="lg:w-[400px] lg:h-[300px] w-[145px] h-[90px] my-[10px]  relative z-10"
+            class="lg:w-[400px] lg:h-[300px] w-[170px] h-[100px] my-[10px]  relative z-10"
             data-bs-toggle="modal"
             data-bs-target="#${id}"
           />

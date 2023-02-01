@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
       </div>
       <nav>
-        <ul id="nav" class="hidden items-center space-y-[10px] border-t-2 mt-6 pt-6 dark:text-yellow-400 lg:flex lg:space-x-[55px] lg:space-y-0 lg:border-0 lg:pt-0 lg:mt-0 pl-4 lg:pl-0 mobile:animate-left">
+        <ul id="nav" class="hidden items-center space-y-[10px] border-t-2 mt-6 pt-6 dark:text-yellow-400 lg:flex lg:space-x-[55px] lg:space-y-0 lg:border-0 lg:pt-0 lg:mt-0 pl-4 lg:pl-0 lg:animate-none animate-left">
           <li class="text-blues-100">
             <a href="/">${Navigasi[0]}</a>
           </li>
@@ -57,7 +57,7 @@ const Navbar = () => {
 
 header.insertAdjacentHTML("afterbegin", Navbar());
 
-let toggle = document.getElementById("toggle");
+
 let bar = document.getElementById("bar");
 let mark = document.getElementById("mark");
 let nav = document.getElementById("nav");

@@ -19,12 +19,12 @@ const Navbar = () => {
         <img src="public/images/logo1.svg" alt="logo" class="lg:w-[185px] dark:hidden w-[35%]" />
         <img src="public/images/logo2.svg" alt="logo" class="hidden lg:w-[185px] dark:block w-[35%]" />
         <div id="toggle" class="cursor-pointer w-[35%] ">
-          <i id="bar" class="fa-solid fa-bars block lg:hidden dark:text-white"></i>
-          <i id="mark" class="fa-solid fa-xmark hidden lg:hidden dark:text-white"></i>
+          <i id="bar" class="fa-solid fa-bars block lg:hidden dark:text-white animate-rotatetr w-2/4"></i>
+          <i id="mark" class="fa-solid fa-xmark hidden lg:hidden dark:text-white animate-rotatetl w-2/4"></i>
         </div>
       </div>
       <nav>
-        <ul id="nav" class="hidden items-center space-y-[10px] border-t-2 mt-6 pt-6 dark:text-yellow-400 lg:flex lg:space-x-[55px] lg:space-y-0 lg:border-0 lg:pt-0 lg:mt-0 pl-4 lg:pl-0">
+        <ul id="nav" class="hidden items-center space-y-[10px] border-t-2 mt-6 pt-6 dark:text-yellow-400 lg:flex lg:space-x-[55px] lg:space-y-0 lg:border-0 lg:pt-0 lg:mt-0 pl-4 lg:pl-0 mobile:animate-left">
           <li class="text-blues-100">
             <a href="/">${Navigasi[0]}</a>
           </li>

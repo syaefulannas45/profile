@@ -43,7 +43,7 @@ tailwind.config = {
           "0%": { transform: "rotate(-360deg)" },
         },
         left: {
-          "0%": { transform: "translatex(30px)" },
+          "0%": { transform: "translatex(60px)" },
         },
       },
       screens: {

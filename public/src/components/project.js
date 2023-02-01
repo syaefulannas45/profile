@@ -7,13 +7,13 @@ const Project = () => {
      <p class="text-[16px] lg:text-[20px] text-center dark:text-slate-100 relative z-10">Next this not shut rethoric best had well of was on facility of the present.</p>
      <div class="flex flex-wrap justify-evenly mt-[30px] relative" id="images-project"></div>
      <img src="public/images/project/vector-1.svg" class="absolute lg:top-0 left-[-30px] animate-ping mobile:h-[100px] top-[100px] "/>
-     <img src="public/images/project/vector-2.svg" class="absolute bottom-[450px] left-4 animate-pulse"/>
-     <img src="public/images/project/vector-3.svg" class="absolute bottom-[500px] left-12 animate-pulse"/>
+     <img src="public/images/project/vector-2.svg" class="absolute bottom-[400px] left-4 animate-pulse"/>
+     <img src="public/images/project/vector-3.svg" class="absolute bottom-[450px] left-10 animate-pulse"/>
      <img src="public/images/project/vector-4.svg" class="absolute top-4 left-[32%] lg:top-[140px] lg:left-[38%] animate-bounce"/>
-     <img src="public/images/project/vector-5.svg" class="absolute top-[510px] left-[32%]"/>
-     <img src="public/images/project/vector-6.svg" class="absolute top-[150px] left-[61%]"/>
-     <img src="public/images/project/vector-7.svg" class="absolute bottom-[300px] left-[70%]"/>
-     <img src="public/images/project/vector-8.svg" class="absolute top-[500px] left-[88%] animate-pulse"/>
+     <img src="public/images/project/vector-5.svg" class="absolute top-[200px] mobile:h-[100px] hover:animate-pulse left-[32%]"/>
+     <img src="public/images/project/vector-6.svg" class="absolute mobile:h-[70px] top-[310px] left-[80%] lg:top-[150px] lg:left-[61%]"/>
+     <img src="public/images/project/vector-7.svg" class="absolute bottom-[300px] left-[70%] hidden lg:block"/>
+     <img src="public/images/project/vector-8.svg hidden lg:block" class="absolute top-[500px] left-[88%] animate-pulse hidden lg:block"/>
  </div>
      `;
 };
@@ -79,7 +79,7 @@ function loopImageProject(url, id, title, desc) {
             data-bs-target="#${id}">See More</p>
           </div>
           <div
-          class="modal fade fixed top-0 lg:left-[25%] hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto absolute"
+          class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="${id}"
           tabindex="-1"
           aria-labelledby="exampleModalCenterTitle"
@@ -87,7 +87,7 @@ function loopImageProject(url, id, title, desc) {
           role="dialog"
         >
           <div
-            class="modal-dialog modal-dialog-centered lg:modal-xl modal-md absolute z-[10000] w-auto pointer-events-none"
+            class="modal-dialog modal-dialog-centered relative w-auto pointer-events-none modal-lg"
           >
             <div
               class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current"
@@ -110,10 +110,10 @@ function loopImageProject(url, id, title, desc) {
               </div>
               <div class="modal-body relative p-4">
                 <div class="flex w-full space-x-6 items-center">
-                  <div class="w-2/4 modal_body_image">
-                    <img src="./public/images/project/${url}.svg" width="100%" />
+                  <div class="w-2/4">
+                    <img src="./public/images/project/${url}.svg" class="w-[240px] h-[240px] lg:w-[370px] lg:h-[265px]" />
                   </div>
-                  <div class="w-2/4 modal_body_title">
+                  <div class="w-2/4">
                     <p>
                    ${desc}
                     </p>

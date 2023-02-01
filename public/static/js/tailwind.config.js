@@ -34,7 +34,7 @@ tailwind.config = {
         },
       },
       screens: {
-        "mobile": { max: "390px" },
+        "mobile": { max: "391px" },
       },
     },
   },

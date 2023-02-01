@@ -4,11 +4,11 @@ const Hero = () => {
   return `
         <div class="lg:flex w-full lg:items-center lg:justify-center h-screen lg:px-[120px] px-4 pt-[150px] lg:pt-[100px] dark:bg-background-100">
           <div class="lg:w-2/4">
-            <h1 class="text-green-100 font-bold text-[32px] lg:text-[48px] bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent lg:w-[80%] pb-4 lg:pb-0">
+            <h1 class="text-green-100 font-bold text-[38px] lg:text-[48px] bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent lg:w-[80%] pb-4 lg:pb-0">
               Nawasena Group
             </h1>
             <p class="
-           text-[16px] lg:text-[20px] leading-[30px] dark:text-slate-100">
+           text-[15px] lg:text-[20px] leading-[30px] dark:text-slate-100">
              Kami adalah startup yang berfokus pada bidang pengembangan teknologi website dan android
             </p>
             <button class="text-white px-[20px] lg:px-[25px] py-[7px] lg:py-[10px] mt-[28px] rounded-[6px] bg-gradient-to-r from-blues-100 to-blues-200 bg">

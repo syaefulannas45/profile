@@ -9,7 +9,7 @@ const Contact = () => {
           <div
             class="w-full lg:flex lg:justify-between bg-white py-[100px] px-4 lg:px-[100px] border relative bottom-[320px] shadow-lg rounded-[8px] dark:bg-background-200 dark:border-0">
             <div class="lg:w-2/4">
-              <h1 class="text-[32px] font-bold bg-gradient-to-b from-blues-100 to-blues-200 bg-clip-text text-transparent">GET IN TOUCH</h1>
+              <h1 class="text-[32px] font-bold bg-gradient-to-b from-blues-100 to-blues-200 bg-clip-text text-transparent">HUBUNGI KAMI</h1>
               <div class="flex-col space-y-[25px] text-[15px] mt-[35px] dark:text-slate-100">
                 <div class="flex items-center">
                  <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px]  rounded-full flex justify-center items-center"><i class="fa-solid fa-location-dot text-[20px] px-4 py-4 text-slate-800 dark:text-white"></i></div>
@@ -44,15 +44,15 @@ const Contact = () => {
               </div>
             </div>
             <div class="lg:w-2/4 pt-[65px] lg:pt-0">
-              <h1 class="font-medium text-[20px] text-slate-800 dark:text-slate-100">Leave us message</h1>
+              <h1 class="font-medium text-[20px] text-slate-800 dark:text-slate-100">Kirimkan pesan email</h1>
               <form class="mt-[20px] flex-col space-y-[25px]">
-                <input type="text" placeholder="Name"
+                <input type="text" placeholder="Nama"
                   class="bg-input-100 py-[10px] w-full pl-[30px] rounded-[8px] placeholder:text-input-200 outline-input-200" />
                 <input type="text" placeholder="Email"
                   class="bg-input-100 py-[10px] w-full pl-[30px] rounded-[8px] placeholder:text-input-200 outline-input-200" />
                 <textarea
-                  class="bg-input-100 py-[10px] w-full pl-[30px] rounded-[8px] text-input-200 outline-input-200 h-[200px]">Write your message here</textarea>
-                <button type="button" onclick="alert()" class="bg-gradient-to-r from-blues-100 to-blues-200 text-center w-full py-[10px] text-white rounded-[6px] font-bold">Send</button>
+                  class="bg-input-100 py-[10px] w-full pl-[30px] rounded-[8px] text-input-200 outline-input-200 h-[200px]">Masukan teks pesan anda</textarea>
+                <button type="button" onclick="alert()" class="bg-gradient-to-r from-blues-100 to-blues-200 text-center w-full py-[10px] text-white rounded-[6px] font-bold">Kirim</button>
               </form>
             </div>
           </div>

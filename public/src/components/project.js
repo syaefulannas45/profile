@@ -4,7 +4,7 @@ const Project = () => {
   return `
  <div class="lg:pt-[120px] px-4 lg:px-[120px] relative dark:bg-background-100 pb-[500px]">
       <h1 class="bg-gradient-to-t from-blues-100 to-blues-200 bg-clip-text text-transparent lg:text-[48px] font-bold text-center relative z-10 text-[38px]">Our Project</h1>
-     <p class="text-[16px] lg:text-[20px] text-center dark:text-slate-100 relative z-10 text-slate-800">Next this not shut rethoric best had well of was on facility of the present.</p>
+     <p class="text-[16px] lg:text-[20px] text-center dark:text-slate-100 relative z-10 text-slate-800">Berikut adalah project terbaru yang telah kami buat :</p>
      <div class="flex flex-wrap justify-evenly mt-[30px] relative" id="images-project"></div>
      <img loading="lazy" src="public/images/project/vector-1.svg" class="absolute lg:top-0 left-[-30px] animate-ping mobile:h-[100px] top-[100px] "/>
      <img loading="lazy" src="public/images/project/vector-2.svg" class="absolute bottom-[400px] left-4 animate-pulse"/>

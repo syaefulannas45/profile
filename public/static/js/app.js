@@ -21,8 +21,14 @@ const lampToggle = () => {
   }
 };
 
-
-
 function alert() {
   swal("Succes", "Thanks for sending the message", "success");
+}
+function email() {
+  swal({
+    text: "Kirimkan sebuah pesan email ke : official.adcom@gmail.com",
+  });
+}
+function sosmed() {
+  swal("Oops", "Mohon maaf akun belum dibuat", "error");
 }

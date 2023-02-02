@@ -11,9 +11,9 @@ const Footer = () => {
         <div class="lg:w-[25%]">
           <h1 class="bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-[30px] border-b-2 font-semibold border-blues-100">About Us</h1>
           <ul class="flex-col space-y-2  pt-2">
-            <li href="/" class="text-slate-800 cursor-pointer  dark:text-slate-100">Apriliana Janatu Marwa</li>
-            <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100">Muhammad Fitrian Shousyade</li>
-            <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100">Syaeful Annas</li>
+            <li class="text-slate-800 cursor-pointer  dark:text-slate-100"><a href="/">Apriliana Janatu Marwa</a></li>
+            <li class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="/">Muhammad Fitrian Shousyade</a></li>
+            <li class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://portfolio-v1-tau-three.vercel.app/">Syaeful Annas</a></li>
           </ul>
         </div>
         <div class="lg:w-[25%]">
@@ -28,10 +28,10 @@ const Footer = () => {
         <div class="lg:w-[25%]">
           <h1 class="bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-[30px] border-b-2 font-semibold border-blues-100">Contact</h1>
           <ul class="flex-col space-y-2 pt-2 ">
-            <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100">Email</li>
-            <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100">Linked</li>
-            <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100">Instagram</li>
-            <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100">Facebook</li>
+            <li class="text-slate-800 cursor-pointer dark:text-slate-100" onclick="email()">Email</li>
+            <li class="text-slate-800 cursor-pointer dark:text-slate-100" oncli><a href="https://www.instagram.com/adcom_official/">Instagram</a></li>
+            <li class="text-slate-800 cursor-pointer dark:text-slate-100" onclick="sosmed()">LinkedIn</li>
+            <li class="text-slate-800 cursor-pointer dark:text-slate-100" onclick="sosmed()">Facebook</li>
           </ul>
         </div>
       </div>

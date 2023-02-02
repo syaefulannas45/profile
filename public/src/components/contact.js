@@ -44,7 +44,7 @@ const Contact = () => {
               </div>
             </div>
             <div class="lg:w-2/4 pt-[65px] lg:pt-0">
-              <h1 class="font-medium text-[20px] dark:text-slate-100">Leave us message</h1>
+              <h1 class="font-medium text-[20px] text-slate-800 dark:text-slate-100">Leave us message</h1>
               <form class="mt-[20px] flex-col space-y-[25px]">
                 <input type="text" placeholder="Name"
                   class="bg-input-100 py-[10px] w-full pl-[30px] rounded-[8px] placeholder:text-input-200 outline-input-200" />

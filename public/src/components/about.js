@@ -3,7 +3,7 @@ let mainAbout = document.getElementById("about");
 const About = () => {
   return `
   <div class="relative pt-[100px] lg:pt-[100px] dark:bg-background-100 px-4 lg:px-[120px] w-full overflow-hidden pb-[340px] lg:pb-10">
-        <img loading="lazy" src="public/images/about/vector-1.svg" alt="vector" class="absolute lg:top-8 lg:left-0 animate-up origin-top-left top-[60px] left-0 z-40 mobile:h-[300px] hidden lg:block" />
+        <img loading="lazy" src="public/images/about/vector-1.svg" alt="vector" class="absolute lg:top-8 lg:left-0 origin-top-left top-[60px] left-0 z-40 mobile:h-[300px] hidden lg:block" />
         <img loading="lazy" src="public/images/about/vector-3.svg" alt="vector" class="absolute lg:top-8 lg:left-0 origin-top-left top-[180px] left-0  mobile:h-[100px] block lg:hidden" />
         <h1 class="lg:text-[48px] font-bold bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-center text-[35px]">Nawasena Group</h1>
         <p class="text-slate-800 text-[15px] lg:text-[20px] text-center dark:text-slate-100">A Growing startup from STMIK IKMI Cirebon</p>

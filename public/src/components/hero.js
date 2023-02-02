@@ -8,7 +8,7 @@ const Hero = () => {
               Nawasena Group
             </h1>
             <p class="
-           text-[15px] lg:text-[20px] leading-[30px] dark:text-slate-100">
+           text-[15px] lg:text-[20px] leading-[30px] dark:text-slate-100 text-slate-800">
              Kami adalah startup yang berfokus pada bidang pengembangan teknologi website dan android
             </p>
             <button class="text-white px-[20px] lg:px-[25px] py-[7px] lg:py-[10px] mt-[28px] rounded-[6px] bg-gradient-to-r from-blues-100 to-blues-200 bg">

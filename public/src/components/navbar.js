@@ -17,8 +17,8 @@ const Navbar = () => {
             </div>
           </label>
         </div>
-        <img src="public/images/logo1.svg" alt="logo" class="lg:w-[185px] dark:hidden w-[35%]" />
-        <img src="public/images/logo2.svg" alt="logo" class="hidden lg:w-[185px] dark:block w-[35%]" />
+        <img loading="lazy" src="public/images/logo1.svg" alt="logo" class="lg:w-[185px] dark:hidden w-[35%]" />
+        <img loading="lazy" src="public/images/logo2.svg" alt="logo" class="hidden lg:w-[185px] dark:block w-[35%]" />
         <div class="cursor-pointer w-[35%] flex">
           <button onclick="toggle()" id="toggle" name="toggle" class="block lg:hidden">
               <span class="my-2 block h-[2px] w-[30px] bg-slate-900 origin-top-left transition duration-300 ease-in-out dark:bg-white"></span>
@@ -69,12 +69,10 @@ function toggle() {
   navMenu.classList.toggle("hidden");
 }
 
-
 let navHome = document.getElementById("nav-home");
 let navAbout = document.getElementById("nav-about");
 let navProject = document.getElementById("nav-project");
 let navContact = document.getElementById("nav-contact");
-
 
 navHome.addEventListener("click", () => {
   navHome.classList.add("text-blues-100");

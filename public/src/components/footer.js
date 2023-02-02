@@ -4,7 +4,7 @@ const Footer = () => {
   return `
      <div class="lg:flex lg:px-[120px] py-[35px] dark:bg-background-300  w-full space-x-10 bg-background-400 mt-[250px] lg:mt-0 px-4 space-y-4 lg:space-x-0">
         <div class="lg:w-[25%]">
-          <img loading="lazy" src="public/images/logo1.svg" class="dark:hidden" />
+          <img loading="lazy" src="public/images/logo1.svg" class="dark:hidden block" />
           <img loading="lazy" src="public/images/logo2.svg" class="hidden dark:block" />
           <p class="text-[20px] text-slate-700 dark:text-slate-100">Seinjak sejejak setujuan</p>
         </div>

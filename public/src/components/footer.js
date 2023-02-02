@@ -37,7 +37,7 @@ const Footer = () => {
       </div>
       <div class="dark:bg-background-300 w-full px-4 lg:px-[65px] bg-background-400">
         <div class="bg-blues-100 w-full h-[1px]"></div>
-        <p class="text-slate-800 text-center pt-4 dark:text-slate-100">Copyright © 2023 Android Developer Community. All Rights Reserved</p>
+        <p class="text-slate-800 text-center pt-4 dark:text-slate-100">Copyright © 2023 Nawasena Group. All Rights Reserved</p>
         <p class="text-center pb-4 text-slate-800 dark:text-slate-100">
           <a href="public/src/pages/credits.html" class="underline">See all credits for this website.</a>
         </p>

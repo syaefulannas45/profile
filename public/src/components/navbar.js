@@ -19,13 +19,17 @@ const Navbar = () => {
         </div>
         <img src="public/images/logo1.svg" alt="logo" class="lg:w-[185px] dark:hidden w-[35%]" />
         <img src="public/images/logo2.svg" alt="logo" class="hidden lg:w-[185px] dark:block w-[35%]" />
-        <div id="toggle" class="cursor-pointer w-[35%] ">
-          <i id="bar" class="fa-solid fa-bars block lg:hidden dark:text-white animate-rotatetr w-2/4"></i>
-          <i id="mark" class="fa-solid fa-xmark hidden lg:hidden dark:text-white animate-rotatetl w-2/4"></i>
+        <div class="cursor-pointer w-[35%] flex">
+          <button onclick="toggle()" id="toggle" name="toggle" class="block lg:hidden">
+              <span class="my-2 block h-[2px] w-[30px] bg-slate-900 origin-top-left transition duration-300 ease-in-out dark:bg-white"></span>
+              <span class="my-2 block h-[2px] w-[30px] bg-slate-900 transition duration-300 ease-in-out dark:bg-white"></span>
+              <span class="my-2 block h-[2px] w-[30px] bg-slate-900 origin-bottom-left transition duration-300  ease-in-out dark:bg-white"></span>
+            </button>
+          </button>
         </div>
       </div>
       <nav>
-        <ul id="nav" class="hidden items-center space-y-[10px] border-t-2 mt-6 pt-6 dark:text-slate-200 lg:flex lg:space-x-[55px] lg:space-y-0 lg:border-0 lg:pt-0 lg:mt-0 pl-4 lg:pl-0 lg:animate-none animate-left bg-background-500 rounded-lg lg:bg-transparent">
+        <ul id="nav" class="hidden items-center space-y-[10px] border-t-2 mt-6 pt-6 dark:text-slate-900 lg:flex lg:space-x-[55px] lg:space-y-0 lg:border-0 lg:pt-0 lg:mt-0 pl-4 lg:pl-0 lg:animate-none animate-left bg-background-500 rounded-lg lg:bg-transparent ">
           <li id="nav-home">
             <a href="#hero">${Navigasi[0]}</a>
           </li>
@@ -58,16 +62,13 @@ const Navbar = () => {
 
 header.insertAdjacentHTML("afterbegin", Navbar());
 
-let toggle = document.getElementById("toggle");
-let bar = document.getElementById("bar");
-let mark = document.getElementById("mark");
-let nav = document.getElementById("nav");
+function toggle() {
+  const navMenu = document.querySelector("#nav");
+  const toggle = document.querySelector("#toggle");
+  toggle.classList.toggle("toggle-active");
+  navMenu.classList.toggle("hidden");
+}
 
-toggle.addEventListener("click", () => {
-  nav.classList.toggle("navbar-active");
-  bar.classList.toggle("bar-active");
-  mark.classList.toggle("mark-active");
-});
 
 let navHome = document.getElementById("nav-home");
 let navAbout = document.getElementById("nav-about");

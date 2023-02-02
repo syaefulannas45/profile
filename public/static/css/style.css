@@ -3,4 +3,18 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+#lamp-toggle:checked ~ label div.toggle-circle {
+  transform: translateX(32px);
+}
+#lamp-toggle-mobile:checked ~ label div.toggle-circle-mobile {
+  transform: translateX(32px);
+}
+.toggle-active > span:nth-child(1) {
+  transform: rotate(45deg);
+}
+.toggle-active > span:nth-child(2) {
+  transform: scale(0, 0);
+}
+.toggle-active > span:nth-child(3) {
+  transform: rotate(-45deg);
+}

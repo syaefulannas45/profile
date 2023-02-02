@@ -13,7 +13,7 @@ const Project = () => {
      <img loading="lazy" src="public/images/project/vector-5.svg" class="absolute lg:top-[500px] top-[200px]  hover:animate-pulse left-[32%] hidden lg:block"/>
      <img loading="lazy" src="public/images/project/vector-6.svg" class="absolute mobile:h-[70px] top-[310px] left-[71%] lg:top-[150px] lg:left-[61%]"/>
      <img loading="lazy" src="public/images/project/vector-7.svg" class="absolute bottom-[300px] left-[70%] hidden lg:block"/>
-     <img loading="lazy" src="public/images/project/vector-8.svg hidden lg:block" class="absolute top-[500px] left-[88%] animate-pulse hidden lg:block"/>
+     <img loading="lazy" src="public/images/project/vector-8.svg" class="absolute top-[500px] left-[88%] animate-pulse hidden lg:block"/>
  </div>
      `;
 };

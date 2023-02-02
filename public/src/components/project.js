@@ -79,7 +79,7 @@ function loopImageProject(url, id, title, desc) {
             data-bs-target="#${id}">See More</p>
           </div>
           <div
-          class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto lg:mx-0"
+          class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto lg:mx-0 px-4"
           id="${id}"
           tabindex="-1"
           aria-labelledby="exampleModalCenterTitle"
@@ -90,7 +90,7 @@ function loopImageProject(url, id, title, desc) {
             class="modal-dialog modal-dialog-centered relative w-auto pointer-events-none modal-lg mobile:mx-10"
           >
             <div
-              class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current px-4"
+              class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current"
             >
               <div
                 class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md"

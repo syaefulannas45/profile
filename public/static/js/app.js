@@ -22,3 +22,5 @@ const lampToggle = () => {
 function alert() {
   swal("Succes", "Thanks for sending the message", "success");
 }
+
+

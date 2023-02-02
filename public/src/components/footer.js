@@ -35,7 +35,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div class="dark:bg-background-300 dark:text-slate-100 w-full px-[65px] bg-background-400">
+      <div class="dark:bg-background-300 dark:text-slate-100 w-full px-4 lg:px-[65px] bg-background-400">
         <div class="bg-blues-100 w-full h-[1px]"></div>
         <p class="text-center pt-4">Copyright © 2023 Android Developer Community. All Rights Reserved</p>
         <p class="text-center pb-4">

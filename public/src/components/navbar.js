@@ -2,6 +2,7 @@ let header = document.getElementById("navbar");
 
 const Navbar = () => {
   let Navigasi = ["Home", "About", "Project", "Contact"];
+
   return `
   <div id="fixed" class="fixed z-[999999] w-full py-[15px] px-4 shadow-sm lg:flex lg:items-center lg:justify-between lg:px-[120px]">
       <div class="flex items-center text-3xl flex-row-reverse lg:flex-row w-full lg:justify-between justify-around">
@@ -24,17 +25,17 @@ const Navbar = () => {
         </div>
       </div>
       <nav>
-        <ul id="nav" class="hidden items-center space-y-[10px] border-t-2 mt-6 pt-6 dark:text-yellow-400 lg:flex lg:space-x-[55px] lg:space-y-0 lg:border-0 lg:pt-0 lg:mt-0 pl-4 lg:pl-0 lg:animate-none animate-left">
-          <li class="text-blues-100">
-            <a href="/">${Navigasi[0]}</a>
+        <ul id="nav" class="hidden items-center space-y-[10px] border-t-2 mt-6 pt-6 dark:text-slate-200 lg:flex lg:space-x-[55px] lg:space-y-0 lg:border-0 lg:pt-0 lg:mt-0 pl-4 lg:pl-0 lg:animate-none animate-left bg-background-500 rounded-lg lg:bg-transparent">
+          <li id="nav-home">
+            <a href="#hero">${Navigasi[0]}</a>
           </li>
-          <li>
+          <li id="nav-about">
             <a href="#about">${Navigasi[1]}</a>
           </li>
-          <li>
+          <li id="nav-project">
             <a href="#project">${Navigasi[2]}</a>
           </li>
-          <li>
+          <li id="nav-contact">
             <a href="#contact">${Navigasi[3]}</a>
           </li>
           <li class="mx-8 flex items-center ">
@@ -57,7 +58,7 @@ const Navbar = () => {
 
 header.insertAdjacentHTML("afterbegin", Navbar());
 
-
+let toggle = document.getElementById("toggle");
 let bar = document.getElementById("bar");
 let mark = document.getElementById("mark");
 let nav = document.getElementById("nav");
@@ -66,4 +67,59 @@ toggle.addEventListener("click", () => {
   nav.classList.toggle("navbar-active");
   bar.classList.toggle("bar-active");
   mark.classList.toggle("mark-active");
+});
+
+let navHome = document.getElementById("nav-home");
+let navAbout = document.getElementById("nav-about");
+let navProject = document.getElementById("nav-project");
+let navContact = document.getElementById("nav-contact");
+
+
+navHome.addEventListener("click", () => {
+  navHome.classList.add("text-blues-100");
+  navHome.classList.add("font-bold");
+  if (navHome.click || navProject.click || navContact.click) {
+    navAbout.classList.remove("text-blues-100");
+    navAbout.classList.remove("font-bold");
+    navProject.classList.remove("text-blues-100");
+    navProject.classList.remove("font-bold");
+    navContact.classList.remove("text-blues-100");
+    navContact.classList.remove("font-bold");
+  }
+});
+navAbout.addEventListener("click", () => {
+  navAbout.classList.add("text-blues-100");
+  navAbout.classList.add("font-bold");
+  if (navAbout.click || navProject.click || navContact.click) {
+    navHome.classList.remove("text-blues-100");
+    navHome.classList.remove("font-bold");
+    navProject.classList.remove("text-blues-100");
+    navProject.classList.remove("font-bold");
+    navContact.classList.remove("text-blues-100");
+    navContact.classList.remove("font-bold");
+  }
+});
+navProject.addEventListener("click", () => {
+  navProject.classList.add("text-blues-100");
+  navProject.classList.add("font-bold");
+  if (navProject.click || navProject.click || navContact.click) {
+    navHome.classList.remove("text-blues-100");
+    navHome.classList.remove("font-bold");
+    navAbout.classList.remove("text-blues-100");
+    navAbout.classList.remove("font-bold");
+    navContact.classList.remove("text-blues-100");
+    navContact.classList.remove("font-bold");
+  }
+});
+navContact.addEventListener("click", () => {
+  navContact.classList.add("text-blues-100");
+  navContact.classList.add("font-bold");
+  if (navContact.click || navProject.click || navContact.click) {
+    navHome.classList.remove("text-blues-100");
+    navHome.classList.remove("font-bold");
+    navAbout.classList.remove("text-blues-100");
+    navAbout.classList.remove("font-bold");
+    navProject.classList.remove("text-blues-100");
+    navProject.classList.remove("font-bold");
+  }
 });

@@ -79,7 +79,7 @@ function loopImageProject(url, id, title, desc) {
             data-bs-target="#${id}">See More</p>
           </div>
           <div
-          class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto lg:mx-0"
           id="${id}"
           tabindex="-1"
           aria-labelledby="exampleModalCenterTitle"
@@ -87,7 +87,7 @@ function loopImageProject(url, id, title, desc) {
           role="dialog"
         >
           <div
-            class="modal-dialog modal-dialog-centered relative w-auto pointer-events-none modal-lg  mx-10 lg:m-0"
+            class="modal-dialog modal-dialog-centered relative w-auto pointer-events-none modal-lg mobile:mx-10"
           >
             <div
               class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current"
@@ -108,7 +108,7 @@ function loopImageProject(url, id, title, desc) {
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body relative px-4">
+              <div class="modal-body relative px-4 py-4">
                 <div class="lg:flex w-full space-x-6 items-center">
                   <div class="lg:w-2/4">
                     <img loading="lazy" src="./public/images/project/${url}.svg" class="w-[240px] h-[240px] lg:w-[370px] lg:h-[265px]" />

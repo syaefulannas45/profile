@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
       </div>
       <nav>
-        <ul id="nav" class="hidden items-center space-y-[10px] border-t-2 mt-6 pt-6 dark:text-slate-900 lg:flex lg:space-x-[55px] lg:space-y-0 lg:border-0 lg:pt-0 lg:mt-0 pl-4 lg:pl-0 lg:animate-none animate-left bg-background-500 rounded-lg lg:bg-transparent ">
+        <ul id="nav" class="hidden items-center space-y-[10px] border-t-2 mt-6 pt-6 dark:text-slate-900 lg:flex lg:space-x-[55px] lg:space-y-0 lg:border-0 lg:pt-0 lg:mt-0 pl-4 lg:pl-0 lg:animate-none animate-left bg-background-500 rounded-lg lg:bg-transparent">
           <li id="nav-home">
             <a href="#hero">${Navigasi[0]}</a>
           </li>

@@ -7,12 +7,6 @@ window.onscroll = function () {
     header.classList.add("bg-opacity-80");
     header.classList.add("backdrop-blur-sm");
     header.classList.add("shadow-navbar");
-  } else {
-    header.classList.remove("fixed");
-    header.classList.remove("z-[9999]");
-    header.classList.remove("bg-opacity-80");
-    header.classList.remove("backdrop-blur-sm");
-    header.classList.remove("shadow-navbar");
   }
 };
 

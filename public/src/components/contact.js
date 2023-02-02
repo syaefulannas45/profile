@@ -5,7 +5,7 @@ const Contact = () => {
      <div class="relative px-4 lg:px-[120px] relative h-[420px] dark:bg-background-100">
      <img loading="lazy" src="public/images/contact/elips.svg" class="absolute lg:top-[-380px] lg:left-10 hover:animate-pulse top-[-380px] left-[128px]" />
      <img loading="lazy" src="public/images/contact/vector-1.svg" class="absolute lg:top-[-280px] lg:right-8 hover:animate-pulse" />
-     <img loading="lazy" src="public/images/contact/vector-2.svg" class="absolute lg:top-[-210px] lg:left-0 top-[400px] left-0 hover:animate-pulse mobile:h-[300px]" />
+     <img loading="lazy" src="public/images/contact/vector-2.svg" class="absolute lg:top-[-210px] lg:left-0 top-[410px] left-0 hover:animate-pulse mobile:h-[300px]" />
           <div
             class="w-full lg:flex lg:justify-between bg-white py-[100px] px-4 lg:px-[100px] border relative bottom-[320px] shadow-lg rounded-[8px] dark:bg-background-200 dark:border-0">
             <div class="lg:w-2/4">

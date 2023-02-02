@@ -9,8 +9,8 @@ const Project = () => {
      <img loading="lazy" src="public/images/project/vector-1.svg" class="absolute lg:top-0 left-[-30px] animate-ping mobile:h-[100px] top-[100px] "/>
      <img loading="lazy" src="public/images/project/vector-2.svg" class="absolute bottom-[400px] left-4 animate-pulse"/>
      <img loading="lazy" src="public/images/project/vector-3.svg" class="absolute bottom-[450px] left-10 animate-pulse"/>
-     <img loading="lazy" src="public/images/project/vector-4.svg" class="absolute top-4 left-[32%] lg:top-[140px] lg:left-[38%] animate-bounce"/>
-     <img loading="lazy" src="public/images/project/vector-5.svg" class="absolute lg:top-[500px] top-[200px] mobile:h-[100px] hover:animate-pulse left-[32%]"/>
+     <img loading="lazy" src="public/images/project/vector-4.svg" class="absolute top-4 left-[32%] lg:top-[140px] lg:left-[38%] animate-bounce hidden lg:block"/>
+     <img loading="lazy" src="public/images/project/vector-5.svg" class="absolute lg:top-[500px] top-[200px]  hover:animate-pulse left-[32%] hidden lg:block"/>
      <img loading="lazy" src="public/images/project/vector-6.svg" class="absolute mobile:h-[70px] top-[310px] left-[71%] lg:top-[150px] lg:left-[61%]"/>
      <img loading="lazy" src="public/images/project/vector-7.svg" class="absolute bottom-[300px] left-[70%] hidden lg:block"/>
      <img loading="lazy" src="public/images/project/vector-8.svg hidden lg:block" class="absolute top-[500px] left-[88%] animate-pulse hidden lg:block"/>
@@ -87,7 +87,7 @@ function loopImageProject(url, id, title, desc) {
           role="dialog"
         >
           <div
-            class="modal-dialog modal-dialog-centered relative w-auto pointer-events-none modal-lg"
+            class="modal-dialog modal-dialog-centered relative w-auto pointer-events-none modal-lg  mx-10 lg:m-0"
           >
             <div
               class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current"
@@ -108,12 +108,12 @@ function loopImageProject(url, id, title, desc) {
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body relative p-4">
-                <div class="flex w-full space-x-6 items-center">
-                  <div class="w-2/4">
+              <div class="modal-body relative px-4">
+                <div class="lg:flex w-full space-x-6 items-center">
+                  <div class="lg:w-2/4">
                     <img loading="lazy" src="./public/images/project/${url}.svg" class="w-[240px] h-[240px] lg:w-[370px] lg:h-[265px]" />
                   </div>
-                  <div class="w-2/4">
+                  <div class="lg:w-2/4">
                     <p>
                    ${desc}
                     </p>

@@ -4,16 +4,16 @@ const Project = () => {
   return `
  <div class="lg:pt-[120px] px-4 lg:px-[120px] relative dark:bg-background-100 pb-[500px]">
       <h1 class="bg-gradient-to-t from-blues-100 to-blues-200 bg-clip-text text-transparent lg:text-[48px] font-bold text-center relative z-10 text-[38px]">Our Project</h1>
-     <p class="text-[16px] lg:text-[20px] text-center dark:text-slate-100 relative z-10">Next this not shut rethoric best had well of was on facility of the present.</p>
+     <p class="text-[16px] lg:text-[20px] text-center dark:text-slate-100 relative z-10 text-slate-800">Next this not shut rethoric best had well of was on facility of the present.</p>
      <div class="flex flex-wrap justify-evenly mt-[30px] relative" id="images-project"></div>
-     <img src="public/images/project/vector-1.svg" class="absolute lg:top-0 left-[-30px] animate-ping mobile:h-[100px] top-[100px] "/>
-     <img src="public/images/project/vector-2.svg" class="absolute bottom-[400px] left-4 animate-pulse"/>
-     <img src="public/images/project/vector-3.svg" class="absolute bottom-[450px] left-10 animate-pulse"/>
-     <img src="public/images/project/vector-4.svg" class="absolute top-4 left-[32%] lg:top-[140px] lg:left-[38%] animate-bounce"/>
-     <img src="public/images/project/vector-5.svg" class="absolute lg:top-[500px] top-[200px] mobile:h-[100px] hover:animate-pulse left-[32%]"/>
-     <img src="public/images/project/vector-6.svg" class="absolute mobile:h-[70px] top-[310px] left-[71%] lg:top-[150px] lg:left-[61%]"/>
-     <img src="public/images/project/vector-7.svg" class="absolute bottom-[300px] left-[70%] hidden lg:block"/>
-     <img src="public/images/project/vector-8.svg hidden lg:block" class="absolute top-[500px] left-[88%] animate-pulse hidden lg:block"/>
+     <img loading="lazy" src="public/images/project/vector-1.svg" class="absolute lg:top-0 left-[-30px] animate-ping mobile:h-[100px] top-[100px] "/>
+     <img loading="lazy" src="public/images/project/vector-2.svg" class="absolute bottom-[400px] left-4 animate-pulse"/>
+     <img loading="lazy" src="public/images/project/vector-3.svg" class="absolute bottom-[450px] left-10 animate-pulse"/>
+     <img loading="lazy" src="public/images/project/vector-4.svg" class="absolute top-4 left-[32%] lg:top-[140px] lg:left-[38%] animate-bounce"/>
+     <img loading="lazy" src="public/images/project/vector-5.svg" class="absolute lg:top-[500px] top-[200px] mobile:h-[100px] hover:animate-pulse left-[32%]"/>
+     <img loading="lazy" src="public/images/project/vector-6.svg" class="absolute mobile:h-[70px] top-[310px] left-[71%] lg:top-[150px] lg:left-[61%]"/>
+     <img loading="lazy" src="public/images/project/vector-7.svg" class="absolute bottom-[300px] left-[70%] hidden lg:block"/>
+     <img loading="lazy" src="public/images/project/vector-8.svg hidden lg:block" class="absolute top-[500px] left-[88%] animate-pulse hidden lg:block"/>
  </div>
      `;
 };
@@ -67,7 +67,7 @@ function loopImageProject(url, id, title, desc) {
         <div
           class="cursor-pointer"
         >
-          <img
+          <img loading="lazy"
             src="./public/images/project/${url}.svg"
             alt="img"
             class="lg:w-[400px] lg:h-[300px] w-[170px] h-[100px] my-[10px]  relative z-10"
@@ -111,7 +111,7 @@ function loopImageProject(url, id, title, desc) {
               <div class="modal-body relative p-4">
                 <div class="flex w-full space-x-6 items-center">
                   <div class="w-2/4">
-                    <img src="./public/images/project/${url}.svg" class="w-[240px] h-[240px] lg:w-[370px] lg:h-[265px]" />
+                    <img loading="lazy" src="./public/images/project/${url}.svg" class="w-[240px] h-[240px] lg:w-[370px] lg:h-[265px]" />
                   </div>
                   <div class="w-2/4">
                     <p>

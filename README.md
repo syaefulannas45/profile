@@ -41,7 +41,7 @@ Sekian dari kami dan terima kasih😊.
 
 3. Kemudian buka Code Editor kalian dalam folder tersebut
 
-4. Pastikan sudah terinstall extension seperti
+4. Pastikan sudah terinstall salah satu extension dibawah ini :
    
    - [Open In Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
    

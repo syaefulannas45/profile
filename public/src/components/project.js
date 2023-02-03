@@ -5,7 +5,7 @@ const Project = () => {
  <div class="lg:pt-[120px] px-4 lg:px-[120px] relative dark:bg-background-100 pb-[500px]">
       <h1 class="bg-gradient-to-t from-blues-100 to-blues-200 bg-clip-text text-transparent lg:text-[48px] font-bold text-center relative z-10 text-[38px]">Our Project</h1>
      <p class="text-[16px] lg:text-[20px] text-center dark:text-slate-100 relative z-10 text-slate-800">Berikut adalah project terbaru yang telah kami buat :</p>
-     <div class="flex flex-wrap justify-evenly mt-[20px] relative" id="images-project"></div>
+     <div class="flex flex-wrap justify-evenly mt-[20px] relative lg:px-16 px-0" id="images-project"></div>
      <img loading="lazy" src="public/images/project/vector-1.svg" class="absolute lg:top-0 left-[-30px] animate-ping mobile:h-[100px] top-[100px] "/>
      <img loading="lazy" src="public/images/project/vector-2.svg" class="absolute bottom-[400px] left-4 animate-pulse"/>
      <img loading="lazy" src="public/images/project/vector-3.svg" class="absolute bottom-[450px] left-10 animate-pulse"/>
@@ -70,12 +70,12 @@ function loopImageProject(url, id, title, desc) {
           <img loading="lazy"
             src="./public/images/project/${url}.svg"
             alt="img"
-            class="lg:w-[400px] lg:h-[300px] w-[170px] h-[200px] my-[10px]  relative z-10 rounded-md"
+            class="lg:w-full lg:h-[300px] w-full h-[150px] my-[10px]  relative z-10 rounded-md border"
             data-bs-toggle="modal"
             data-bs-target="#${id}"
           />
           <div class="relative">
-          <p class="absolute border border-slate-800 lg:text-[17px] text-[10px] text-slate-800 backdrop-blur-sm  to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[30px] rounded-full lg:top-[-180px] top-[-120px] left-[32%] lg:left-[35%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
+          <p class="absolute border border-slate-800 lg:text-[17px] text-[10px] text-blues-100 backdrop-blur-sm  to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[30px] rounded-full lg:top-[-180px] top-[-100px] left-[31%] lg:left-[30%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
             data-bs-target="#${id}">See More</p>
           </div>
           <div

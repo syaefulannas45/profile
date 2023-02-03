@@ -4,9 +4,9 @@ const Footer = () => {
   return `
      <div class="lg:flex lg:px-[120px] py-[35px] dark:bg-background-300  w-full lg:space-x-10 bg-background-400 mt-[250px] lg:mt-0 px-4 space-y-4 lg:space-y-0">
         <div class="lg:w-[25%]">
-          <img loading="lazy" src="public/images/logo1.svg" class="dark:hidden block" />
+          <img loading="lazy" src="public/images/logo1.svg" class="dark:hidden block h-[40px] lg:h-[50px]" />
           <img loading="lazy" src="public/images/logo2.svg" class="hidden dark:block" />
-          <p class="text-[20px] text-slate-700 dark:text-slate-100">Seinjak sejejak setujuan</p>
+          <p class="text-[17px] lg:text-[20px] text-slate-700 dark:text-slate-100">Seinjak sejejak setujuan</p>
         </div>
         <div class="lg:w-[25%]">
           <h1 class="bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-[30px] border-b-2 font-semibold border-blues-100">About Us</h1>
@@ -23,7 +23,7 @@ const Footer = () => {
             <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://www.instagram.com/p/CoKyFvwPt_e/?igshid=OGQ2MjdiOTE%3D" target="blank">UI Design Woodland</a></li>
             <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://www.instagram.com/p/CoKy8oivTVb/?igshid=OGQ2MjdiOTE%3D">UI Design Pricing Cards</a></li>
             <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://company-profile-snowy.vercel.app/" target="blank">Web Company Profile</a></li>
-          </ul>
+          </ul> 
         </div>
         <div class="lg:w-[25%]">
           <h1 class="bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-[30px] border-b-2 font-semibold border-blues-100">Contact</h1>

@@ -12,7 +12,7 @@ const Footer = () => {
           <h1 class="bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-[30px] border-b-2 font-semibold border-blues-100">About Us</h1>
           <ul class="flex-col space-y-2  pt-2">
             <li class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://portfolio-v1-tau-three.vercel.app/">Syaeful Annas</a></li>
-            <li class="text-slate-800 cursor-pointer  dark:text-slate-100">a href="https://www.instagram.com/ajmarwa_/">Apriliana Janatu Marwa</a></li>
+            <li class="text-slate-800 cursor-pointer  dark:text-slate-100"><a href="https://www.instagram.com/ajmarwa_/">Apriliana Janatu Marwa</a></li>
             <li class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://shousyadev.vercel.app">Muhammad Fitrian Shousyade Almadina</a></li>
           </ul>
         </div>

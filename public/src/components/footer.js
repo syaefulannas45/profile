@@ -20,8 +20,8 @@ const Footer = () => {
           <h1 class="bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-[30px] border-b-2 font-semibold border-blues-100">Project</h1>
           <ul class="flex-col space-y-2  pt-2">
             <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://simple-qrcode.onrender.com/">Simple QRCode Generator</a></li>
-            <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100">Web Portfolio</li>
-            <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100">Web Company Profile</li>
+            <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://www.instagram.com/p/CoKyFvwPt_e/?igshid=OGQ2MjdiOTE%3D">UI Design Woodland</a></li>
+            <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://www.instagram.com/p/CoKy8oivTVb/?igshid=OGQ2MjdiOTE%3D">UI Design Pricing Cards</a></li>
             <li href="/" class="text-slate-800 cursor-pointer dark:text-slate-100">Apps & Games</li>
           </ul>
         </div>

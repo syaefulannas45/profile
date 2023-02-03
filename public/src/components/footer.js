@@ -4,8 +4,8 @@ const Footer = () => {
   return `
      <div class="lg:flex lg:px-[120px] py-[35px] dark:bg-background-300  w-full lg:space-x-10 bg-background-400 mt-[250px] lg:mt-0 px-4 space-y-4 lg:space-y-0">
         <div class="lg:w-[25%]">
-          <img loading="lazy" src="public/images/logo1.svg" class="dark:hidden block h-[40px] dark:h-[40px] lg:h-[50px]" />
-          <img loading="lazy" src="public/images/logo2.svg" class="hidden dark:block" />
+          <img loading="lazy" src="public/images/logo1.svg" class="dark:hidden block h-[40px] lg:h-[50px]" />
+          <img loading="lazy" src="public/images/logo2.svg" class="hidden dark:block h-[40px] lg:h-[50px]" />
           <p class="text-[17px] lg:text-[20px] text-slate-700 dark:text-slate-100">Seinjak sejejak setujuan</p>
         </div>
         <div class="lg:w-[25%]">

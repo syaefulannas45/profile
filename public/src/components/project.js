@@ -24,38 +24,38 @@ const imagesProject = [
   {
     url: "img-6",
     id: "id_6",
-    title: "Our Project",
-    desc: "Lorem ipsum",
+    title: "Web QRCode Maker",
+    desc: "Simple QRCode maker build with Nodejs Express",
   },
   {
     url: "img-5",
     id: "id_5",
-    title: "Our Project",
-    desc: "Lorem ipsum",
+    title: "Web Company Profile",
+    desc: "Simple web landing page company profile",
   },
   {
     url: "img-4",
     id: "id_4",
-    title: "Our Project",
-    desc: "Lorem ipsum",
+    title: "UI Design Pricing Card",
+    desc: "The price list to enchance your social media insight",
   },
   {
     url: "img-3",
     id: "id_3",
-    title: "Our Project",
-    desc: "Lorem ipsum",
+    title: "UI Design Profie Card",
+    desc: "Call me now",
   },
   {
     url: "img-2",
     id: "id_2",
-    title: "Our Project",
-    desc: "Lorem ipsum",
+    title: "UI Design Woodland",
+    desc: "Woodland helps you hiking",
   },
   {
     url: "img-1",
     id: "id_1",
-    title: "Our Project",
-    desc: "Lorem ipsum",
+    title: "UI Design NontonKuy!!!",
+    desc: "Buy a brand-new movie ticket with one click",
   },
 ];
 
@@ -75,7 +75,7 @@ function loopImageProject(url, id, title, desc) {
             data-bs-target="#${id}"
           />
           <div class="relative">
-          <p class="absolute border border-slate-800 lg:text-[17px] text-[10px] text-blues-100 backdrop-blur-sm  to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[30px] rounded-full lg:top-[-180px] top-[-100px] left-[31%] lg:left-[30%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
+          <p class="absolute border border-blues-100 lg:text-[17px] text-[10px] text-blues-100 backdrop-blur-sm  to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[30px] rounded-full lg:top-[-180px] top-[-100px] left-[31%] lg:left-[30%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
             data-bs-target="#${id}">See More</p>
           </div>
           <div

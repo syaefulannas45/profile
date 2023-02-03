@@ -113,7 +113,7 @@ function loopImageProject(url, id, title, desc) {
                   <div class="lg:w-2/4">
                     <img loading="lazy" src="./public/images/project/${url}.svg" class="w-[240px] h-[240px] lg:w-[370px] lg:h-[265px]" />
                   </div>
-                  <div class="lg:w-2/4">
+                  <div class="lg:w-2/4 py-4 lg:p-0">
                     <p>
                    ${desc}
                     </p>

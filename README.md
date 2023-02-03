@@ -10,7 +10,7 @@ Tentunya tanpa adanya kerja sama yang baik website ini tidak dapat dibangun deng
 
 1. [Syaeful Annas](https://portfolio-v1-tau-three.vercel.app/) as Front End Developer
 
-2. [Apriliana Janatu Marwa]([Instagram](https://www.instagram.com/ajmarwa_/)) as UI/UX Engineer
+2. [Apriliana Janatu Marwa](https://www.instagram.com/ajmarwa_/) as UI/UX Engineer
 
 3. [Muhammad Fitrian Shousyade Almadina](https://shousyadev.vercel.app/) as Back End Engineer
 

@@ -109,7 +109,7 @@ function loopImageProject(url, id, title, desc) {
                 ></button>
               </div>
               <div class="modal-body relative px-4 py-4">
-                <div class="lg:flex w-full space-x-6 items-center">
+                <div class="lg:flex w-full lg:space-x-6 items-center">
                   <div class="lg:w-2/4">
                     <img loading="lazy" src="./public/images/project/${url}.svg" class="w-[240px] h-[240px] lg:w-[370px] lg:h-[265px]" />
                   </div>

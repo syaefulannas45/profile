@@ -2,9 +2,9 @@ let mainHero = document.getElementById("hero");
 
 const Hero = () => {
   return `
-        <div class="lg:flex w-full lg:items-center lg:justify-center h-screen lg:px-[120px] px-4 pt-[150px] lg:pt-[100px] dark:bg-background-100">
+        <div class="lg:flex w-full lg:items-center lg:justify-center h-screen lg:px-[120px] px-4 pt-[25%] lg:pt-[100px] dark:bg-background-100">
           <div class="lg:w-2/4">
-            <h1 class="text-green-100 font-bold text-[38px] lg:text-[48px] bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent lg:w-[80%] pb-4 lg:pb-0">
+            <h1 class="text-green-100 font-bold text-[35px] lg:text-[48px] bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent lg:w-[80%] pb-4 lg:pb-0">
               Nawasena Group
             </h1>
             <p class="
@@ -16,11 +16,11 @@ const Hero = () => {
             </button>
           </div>
           <div class="lg:w-2/4 relative flex lg:justify-center pt-[50px] lg:pt-0">
-            <img loading="lazy"  src="public/images/hero/hero.svg" alt="images" class="lg:h-[600px] px-12 relative lg:static z-10" />
-            <img loading="lazy"  src="public/images/hero/elips-1.svg" alt="images" class="absolute lg:left-[50px] lg:top-[210px] top-[140px] left-[10px] animate-bounce z-20" />
-            <img loading="lazy"  src="public/images/hero/elips-2.svg" alt="images" class="absolute lg:left-[30px] lg:bottom-0 bottom-[-10px] lg:h-[110px] h-[70px] left-[18px] z-20" />
-            <img loading="lazy"  src="public/images/hero/elips-3.svg" alt="images" class="absolute right-[-10px] top-[150px] lg:right-0 lg:top-[200px]" />
-            <img loading="lazy"  src="public/images/hero/ilustrasi.svg" alt="images" class="absolute lg:left-0 lg:top-[50px] lg:h-[500px] lg:h-[500px] h-[300px] top-[70px] z-20" />
+            <img loading="lazy"  src="public/images/hero/hero.svg" alt="images" class="px-12 relative z-10 absolute" />
+            <img loading="lazy"  src="public/images/hero/elips-1.svg" alt="images" class="absolute lg:left-[11%] lg:top-[35%] top-[35%] left-[3%] animate-bounce z-20" />
+            <img loading="lazy"  src="public/images/hero/elips-2.svg" alt="images" class="absolute lg:left-[8%] lg:bottom-[6%] bottom-[-2%] lg:h-[110px] h-[70px] left-[5%] z-20" />
+            <img loading="lazy"  src="public/images/hero/elips-3.svg" alt="images" class="absolute right-[-1%] top-[35%] lg:right-[2%] lg:top-[30%]" />
+            <img loading="lazy"  src="public/images/hero/ilustrasi.svg" alt="images" class="absolute lg:left-[3%] lg:top-[12%] lg:h-[500px] lg:h-[500px] h-[300px] top-[18%] z-20 left-[1%]" />
           </div>
         </div>
         `;

@@ -11,11 +11,8 @@ const About = () => {
           <div data-aos="fade-right" class="lg:w-2/4 w-full">
             <p class="lg:text-[20px] leading-[30px] dark:text-slate-200 text-[14px] relative z-40 text-slate-800 pt-[80px] lg:pt-0">
               Nawasena sendiri berasal dari bahasa sansekerta yang berarti masa depan yang cerah <br><br>
-
               Kami mempunyai visi yaitu selalu memberikan yang terbaik kepada client, sehingga perusahaan mereka dapat berkembang dan bermanfaat bagi konsumen<br><br>
-
               Didukung dengan developer berpengalaman menjadikan kami dipercaya oleh berbagai client dari seluruh Indonesia.<br><br>
-
               Teknologi yang kami gunakan:
             </p>
             <div id="aboutleft" class="flex lg:space-x-[7%] px-[10%] space-x-[3.5%] lg:p-0 justify-evenly lg:justify-start flex-wrap w-full"></div>
@@ -24,7 +21,6 @@ const About = () => {
           </div>
           <div data-aos="fade-left" class="lg:w-2/4 lg:pb-[150px] flex justify-center relative w-full">
             <img loading="lazy" src="public/images/about/about.svg" alt="bg" class="z-10 absolute h-[270px] lg:bottom-[50%] lg:left-[20%]" />
-
             <img loading="lazy" src="public/images/about/vector-2.svg" alt="vector" class="absolute lg:bottom-[-30%] lg:right-[-5%] animate-pulse bottom-[-250px] right-0 mobile:h-[200px]" />
           </div>
         </div>

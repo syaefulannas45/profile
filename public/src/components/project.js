@@ -70,7 +70,7 @@ function loopImageProject(url, id, title, desc) {
           <img loading="lazy"
             src="./public/images/project/${url}.svg"
             alt="img"
-            class="lg:w-[400px] lg:h-[300px] w-[170px] h-[200px] my-[10px]  relative z-10"
+            class="lg:w-[400px] lg:h-[300px] w-[170px] h-[200px] my-[10px]  relative z-10 rounded-md"
             data-bs-toggle="modal"
             data-bs-target="#${id}"
           />

@@ -70,12 +70,12 @@ function loopImageProject(url, id, title, desc) {
           <img loading="lazy"
             src="./public/images/project/${url}.svg"
             alt="img"
-            class="lg:w-[400px] lg:h-[300px] w-[170px] h-[100px] my-[10px]  relative z-10"
+            class="lg:w-[400px] lg:h-[300px] w-[170px] h-[200px] my-[10px]  relative z-10"
             data-bs-toggle="modal"
             data-bs-target="#${id}"
           />
           <div class="relative">
-          <p class="absolute border lg:text-[17px] text-[10px] text-slate-100 backdrop-blur-sm  to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[30px] rounded-full lg:top-[-180px] top-[-70px] left-[32%] lg:left-[35%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
+          <p class="absolute border border-slate-800 lg:text-[17px] text-[10px] text-slate-800 backdrop-blur-sm  to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[30px] rounded-full lg:top-[-180px] top-[-120px] left-[32%] lg:left-[35%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
             data-bs-target="#${id}">See More</p>
           </div>
           <div

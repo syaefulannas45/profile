@@ -10,7 +10,7 @@ const About = () => {
         <p class="text-slate-800 text-[15px] lg:text-[20px] text-center dark:text-slate-100">A Growing startup from STMIK IKMI Cirebon</p>
         <div class="w-full lg:flex pt-6 lg:pt-0 lg:mt-[80px] lg:items-center">
           <div data-aos="fade-right" class="lg:w-2/4 w-full">
-            <p class="lg:text-[20px] leading-[30px] dark:text-slate-200 text-[14px] relative z-40 text-slate-800 pt-[80px] lg:pt-0">
+            <p class="lg:text-[20px] leading-[30px] dark:text-slate-200 text-[14px] relative z-40 text-slate-800 pt-[70px] lg:pt-0 px-6">
               Nawasena sendiri berasal dari bahasa sansekerta yang berarti masa depan yang cerah <br><br>
               Kami mempunyai visi yaitu selalu memberikan yang terbaik kepada client, sehingga perusahaan mereka dapat berkembang dan bermanfaat bagi konsumen<br><br>
               Didukung dengan developer berpengalaman menjadikan kami dipercaya oleh berbagai client dari seluruh Indonesia.<br><br>

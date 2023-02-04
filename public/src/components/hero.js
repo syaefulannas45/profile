@@ -17,10 +17,7 @@ const Hero = () => {
           </div>
           <div class="lg:w-2/4 relative flex lg:justify-center pt-[50px] lg:pt-0">
             <img loading="lazy"  src="public/images/hero/hero.svg" alt="images" class="px-12 relative z-10 absolute" />
-            <img loading="lazy"  src="public/images/hero/elips-1.svg" alt="images" class="absolute lg:left-[11%] lg:top-[35%] top-[35%] left-[3%] animate-bounce z-20" />
-            <img loading="lazy"  src="public/images/hero/elips-2.svg" alt="images" class="absolute lg:left-[8%] lg:bottom-[6%] bottom-[-2%] lg:h-[110px] h-[70px] left-[5%] z-20" />
-            <img loading="lazy"  src="public/images/hero/elips-3.svg" alt="images" class="absolute right-[-1%] top-[35%] lg:right-[2%] lg:top-[30%]" />
-            <img loading="lazy"  src="public/images/hero/ilustrasi.svg" alt="images" class="absolute lg:left-[3%] lg:top-[12%] lg:h-[500px] lg:h-[500px] h-[300px] top-[18%] z-20 left-[1%]" />
+            <img loading="lazy"  src="public/images/hero/elips-1.svg" alt="images" class="absolute lg:left-[17%] lg:top-[41%] top-[40%] left-[15%] animate-bounce z-20 h-[50px]" />
           </div>
         </div>
         `;

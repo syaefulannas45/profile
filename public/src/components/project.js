@@ -75,7 +75,7 @@ function loopImageProject(url, id, title, desc) {
             data-bs-target="#${id}"
           />
           <div class="relative">
-          <p class="absolute border border-blues-100 lg:text-[17px] text-[10px] text-blues-100 backdrop-blur-sm  to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[30px] rounded-full lg:top-[-180px] top-[-100px] left-[31%] lg:left-[30%] z-20 hover:scale-150 hover:duration-200" data-bs-toggle="modal"
+          <p class="absolute border border-blues-100 lg:text-[17px] text-[10px] text-blues-100 backdrop-blur-sm  to-blues-200 px-[10px] py-[5px] lg:py-[10px] lg:px-[30px] rounded-full lg:top-[-180px] top-[-100px] left-[31%] lg:left-[30%] z-20 hover:scale-105 hover:duration-200" data-bs-toggle="modal"
             data-bs-target="#${id}">See More</p>
           </div>
           <div

@@ -21,7 +21,7 @@ const About = () => {
           </div>
           <div data-aos="fade-left" class="lg:w-2/4 lg:pb-[150px] flex justify-center relative w-full">
             <img loading="lazy" src="public/images/about/about.svg" alt="bg" class="z-10 absolute h-[270px] lg:bottom-[50%] lg:left-[20%]" />
-            <img loading="lazy" src="public/images/about/vector-2.svg" alt="vector" class="absolute lg:bottom-[-30%] lg:right-[-5%] animate-pulse bottom-[-250px] right-0 mobile:h-[200px]" />
+            <img loading="lazy" src="public/images/about/vector-2.svg" alt="vector" class="absolute lg:bottom-[-30%] lg:right-[-5%] animate-pulse bottom-[-280px] right-0 mobile:h-[200px]" />
           </div>
         </div>
         </div>

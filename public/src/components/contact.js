@@ -7,7 +7,7 @@ const Contact = () => {
      <img loading="lazy" src="public/images/contact/vector-1.svg" class="absolute lg:top-[-280px] lg:right-8 hover:animate-pulse" />
      <img loading="lazy" src="public/images/contact/vector-2.svg" class="absolute lg:top-[-220px] lg:left-0 top-[410px] left-0 hover:animate-pulse mobile:h-[300px]" />
           <div
-            class="w-full lg:flex lg:justify-between bg-white py-[50px] px-4 lg:px-[100px] border relative lg:bottom-[320px] shadow-lg rounded-[8px] dark:bg-background-200 dark:border-0">
+            class="w-full lg:flex lg:justify-between bg-white py-[50px] px-4 lg:px-[100px] border relative bottom-10 lg:bottom-[320px] shadow-lg rounded-[8px] dark:bg-background-200 dark:border-0">
             <div class="lg:w-2/4">
               <h1 class="text-[32px] font-bold bg-gradient-to-b from-blues-100 to-blues-200 bg-clip-text text-transparent">HUBUNGI KAMI</h1>
               <div class="flex-col space-y-[25px] text-[15px] mt-[35px] dark:text-slate-100">

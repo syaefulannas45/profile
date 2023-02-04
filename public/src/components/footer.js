@@ -2,7 +2,7 @@ let footer = document.getElementById("footer");
 
 const Footer = () => {
   return `
-     <div class="lg:flex lg:px-[120px] py-[25px] relative lg:top-0 top-[-150px] dark:bg-background-300  w-full lg:space-x-10 bg-background-400  px-4 space-y-4 lg:space-y-0">
+     <div class="lg:flex lg:px-[120px] py-[25px] dark:bg-background-300  w-full lg:space-x-10 bg-background-400  px-4 space-y-4 lg:space-y-0">
         <div class="lg:w-[25%]">
           <img loading="lazy" src="public/images/logo1.svg" class="dark:hidden block h-[40px] lg:h-[50px]" />
           <img loading="lazy" src="public/images/logo2.svg" class="hidden dark:block h-[40px] lg:h-[50px]" />
@@ -34,13 +34,14 @@ const Footer = () => {
             <li class="text-slate-800 cursor-pointer dark:text-slate-100" onclick="sosmed()">Facebook</li>
           </ul>
         </div>
-        <div class="dark:bg-background-300 relative w-full px-4 lg:px-[65px] bg-background-400">
+        
+      </div>
+      <div class="dark:bg-background-300 w-full px-4  bg-background-400 ">
         <div class="bg-blues-100 w-full h-[1px]"></div>
         <p class="text-slate-800 text-center pt-4 dark:text-slate-100">Copyright © 2023 Nawasena Group. All Rights Reserved</p>
         <p class="text-center pb-4 text-slate-800 dark:text-slate-100">
           <a href="public/src/pages/credits.html" class="underline">See all credits for this website.</a>
         </p>
-      </div>
       </div>
       
       

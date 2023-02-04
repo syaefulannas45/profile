@@ -2,7 +2,7 @@ let mainAbout = document.getElementById("about");
 
 const About = () => {
   return `
-  <div class="pt-[1%] lg:pt-[100px] dark:bg-background-100 px-4 lg:px-[120px] w-full overflow-hidden pb-[340px] lg:pb-10">
+  <div class="pt-[1%] lg:pt-[100px] dark:bg-background-100 px-4 lg:px-[120px] w-full overflow-hidden pb-[100px] lg:pb-10">
         <div class="relative">
         <img loading="lazy" src="public/images/about/vector-1.svg" alt="vector" class="absolute lg:top-[0%] lg:left-[-9%] top-[9%] left-[-4%] z-40 lg:block hidden" />
         <img loading="lazy" src="public/images/about/vector-3.svg" alt="vector" class="absolute lg:top-[0%] lg:left-[-9%] top-[9%] left-[-4%] z-40 lg:hidden block" />

@@ -22,17 +22,17 @@ const Contact = () => {
                  <span class="text-slate-800 dark:text-white underline"><a href="https://youtube.com/@adcomchannel_"> Adcom</a></span>
                 </div>
                
-                <div class="cursor-pointer flex space-x-[20px] text-[20px]">
-                <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px] rounded-full flex justify-center items-center px-4 py-4">
+                <div class=" flex space-x-[20px] text-[20px]">
+                <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px] rounded-full flex justify-center items-center px-4 py-4 lg:cursor-pointer">
                 <i class="fa-solid fa-phone   text-slate-800 dark:text-slate-100"></i>
                 </div>
-                <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px] rounded-full flex justify-center items-center px-4 py-4">
+                <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px] rounded-full flex justify-center items-center px-4 py-4 lg:cursor-pointer">
                 <a href="https://instagram.com/adcom_official"><i class="fa-brands fa-instagram text-slate-800 dark:text-slate-100"></i></a>
                 </div>
-                <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px] rounded-full flex justify-center items-center px-4 py-4">
+                <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px] rounded-full flex justify-center items-center px-4 py-4 lg:cursor-pointer">
                 <a href="https://github.com/adcomofficial"><i class="fa-brands fa-github text-slate-800 dark:text-slate-100"></i></a>
                 </div>
-                <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px] rounded-full flex justify-center items-center px-4 py-4">
+                <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px] rounded-full flex justify-center items-center px-4 py-4 lg:cursor-pointer">
                 <i class="fa-brands fa-dribbble text-slate-800 dark:text-slate-100"></i>
                 </div>
                   

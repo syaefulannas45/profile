@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <img loading="lazy" src="public/images/logo1.svg" alt="logo" class="lg:w-[185px] block dark:hidden w-[35%]" />
         <img loading="lazy" src="public/images/logo2.svg" alt="logo" class="hidden lg:w-[185px] dark:block w-[35%]" />
-        <div class="cursor-pointer w-[35%] flex">
+        <div class="lg:cursor-pointer w-[35%] flex">
           <button onclick="toggle()" id="toggle" name="toggle" class="block lg:hidden">
               <span class="my-2 block h-[2px] w-[30px] bg-slate-900 origin-top-left transition duration-300 ease-in-out dark:bg-white"></span>
               <span class="my-2 block h-[2px] w-[30px] bg-slate-900 transition duration-300 ease-in-out dark:bg-white"></span>

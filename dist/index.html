@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Nawasena Group</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="public/favicon.svg" type="image/svg" />
+    <!-- CSS Native -->
+    <link rel="stylesheet" href="public/static/css/style.css" />
+    <!-- Tailwind Element -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Tailwind Elements -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar Section -->
+      <section id="navbar"></section>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section id="hero"></section>
+      <!-- About Section -->
+      <section id="about"></section>
+      <!-- Project Section -->
+      <section id="project"></section>
+      <!-- Contact Section -->
+      <section id="contact"></section>
+    </main>
+    <footer>
+      <!-- Section Footer -->
+      <section id="footer"></section>
+    </footer>
+    <!-- CSS Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Navbar Components -->
+    <script src="public/src/components/navbar-min.js"></script>
+    <!-- Hero Components -->
+    <script src="public/src/components/hero-min.js"></script>
+    <!-- About Components -->
+    <script src="public/src/components/about-min.js"></script>
+    <!-- Project Components -->
+    <script src="public/src/components/project-min.js"></script>
+    <!-- Contact Components -->
+    <script src="public/src/components/contact-min.js"></script>
+    <!-- Footer Components -->
+    <script src="public/src/components/footer-min.js"></script>
+    <!-- Javascript -->
+    <script src="public/static/js/app-min.js"></script>
+    <!-- Animate On Scrool -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Tailwind Element -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <!-- Config CSS Tailwind -->
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              blues: {
+                100: "#BE93C5",
+                200: "#7BC6CC",
+                300: "#E8CBC0",
+                400: "#636FA4",
+              },
+              input: {
+                100: "#ECEBEBCC",
+                200: "#5F5353",
+              },
+              transparent: "transparent",
+              background: {
+                100: "#072852",
+                200: "#153B6A",
+                300: "#1E4D85",
+                400: "#E3E3E3",
+                500: "#d6d6d6",
+              },
+            },
+            boxShadow: {
+              custom: "1px 1px 1px 1px #d6d6d6",
+              navbar: "inset 0 -1px 0 0 rgba(0, 0, 0, 0.2)",
+            },
+            animation: {
+              left: "left 1s ease-in-out 1",
+            },
+            keyframes: {
+              left: {
+                "0%": { transform: "translatex(60px)" },
+              },
+            },
+            screens: {
+              mobile: { max: "391px" },
+            },
+          },
+        },
+      };
+    </script>
+  </body>
+</html>

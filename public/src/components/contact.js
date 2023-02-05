@@ -2,12 +2,12 @@ let mainContact = document.getElementById("contact");
 
 const Contact = () => {
   return `
-     <div class="relative px-4 lg:px-[120px] lg:h-[420px] dark:bg-background-100 py-10">
-     <img loading="lazy" src="public/images/contact/elips.svg" class="absolute lg:top-[-380px] lg:left-10 hover:animate-pulse top-[-5px] left-[128px]" />
-     <img loading="lazy" src="public/images/contact/vector-1.svg" class="absolute lg:top-[-280px] lg:right-8 hover:animate-pulse hidden lg:block" />
-     <img loading="lazy" src="public/images/contact/vector-2.svg" class="absolute lg:top-[-300px] lg:left-0 bottom-[10px] lg:bottom-0  left-0 hover:animate-pulse mobile:h-[300px]" />
+     <div class="relative px-4 lg:px-[120px] lg:h-[420px] dark:bg-background-100 py-[80px] lg:py-10">
+     <img loading="lazy" src="public/images/contact/elips.svg" class="absolute lg:top-[-320px] lg:left-10 hover:animate-pulse top-[15px] left-[20px]" />
+     <img loading="lazy" src="public/images/contact/elips.svg" class="absolute lg:top-[250px] lg:right-[120px] hover:animate-pulse bottom-[20px] lg:bottom-0  right-[20px]" />
+     <img loading="lazy" src="public/images/contact/vector-1.svg" class="absolute lg:top-[-230px] lg:right-8 hover:animate-pulse hidden lg:block" />
           <div
-            class="w-full lg:flex lg:justify-between bg-white py-[50px] px-4 lg:px-[100px] border  lg:bottom-[365px] relative shadow-lg rounded-[8px] dark:bg-background-200 dark:border-0">
+            class="w-full lg:flex lg:justify-between bg-white py-[50px] px-4 lg:px-[100px]  lg:bottom-[300px] relative shadow-lg rounded-[8px] dark:bg-background-200 dark:border-0">
             <div class="lg:w-2/4">
               <h1 class="text-[32px] font-bold bg-gradient-to-b from-blues-100 to-blues-200 bg-clip-text text-transparent">HUBUNGI KAMI</h1>
               <div class="flex-col space-y-[25px] text-[15px] mt-[35px] dark:text-slate-100">

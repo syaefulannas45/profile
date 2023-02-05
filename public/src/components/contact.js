@@ -5,7 +5,7 @@ const Contact = () => {
      <div class="relative px-4 lg:px-[120px] lg:h-[420px] dark:bg-background-100">
      <img loading="lazy" src="public/images/contact/elips.svg" class="absolute lg:top-[-380px] lg:left-10 hover:animate-pulse top-[-380px] left-[128px]" />
      <img loading="lazy" src="public/images/contact/vector-1.svg" class="absolute lg:top-[-280px] lg:right-8 hover:animate-pulse" />
-     <img loading="lazy" src="public/images/contact/vector-2.svg" class="absolute lg:top-[-220px] lg:left-0 top-[410px] left-0 hover:animate-pulse mobile:h-[300px]" />
+     <img loading="lazy" src="public/images/contact/vector-2.svg" class="absolute lg:top-[-220px] lg:left-0 bottom-[10px] lg:bottom-0 left-0 hover:animate-pulse mobile:h-[300px]" />
           <div
             class="w-full lg:flex lg:justify-between bg-white py-[50px] px-4 lg:px-[100px] border relative bottom-[210px] shadow-lg rounded-[8px] dark:bg-background-200 dark:border-0">
             <div class="lg:w-2/4">
@@ -40,7 +40,7 @@ const Contact = () => {
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.2731800839642!2d108.52486781471951!3d-6.736491095130134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f1dfcef42566d%3A0x3e146375f0046403!2sSekolah%20Tinggi%20Manajemen%20Informatika%20dan%20Komputer%20IKMI!5e0!3m2!1sid!2sid!4v1674977787432!5m2!1sid!2sid"
                   width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade" class="lg:w-[425px] lg:h-[210px] rounded-[8px] hidden lg:block"></iframe>
+                  referrerpolicy="no-referrer-when-downgrade" class="lg:w-[425px] lg:h-[210px] rounded-[8px] w-full h-[200px]"></iframe>
               </div>
             </div>
             <div class="lg:w-2/4 pt-[65px] lg:pt-0">

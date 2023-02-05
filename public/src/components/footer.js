@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         
       </div>
-      <div class="dark:bg-background-300 w-full px-4  bg-background-400 ">
+      <div class="dark:bg-background-300 w-full px-4  bg-background-400 text-[13px] ">
         <div class="bg-blues-100 w-full h-[1px]"></div>
         <p class="text-slate-800 text-center pt-4 dark:text-slate-100">Copyright © 2023 Nawasena Group. All Rights Reserved</p>
         <p class="text-center pb-4 text-slate-800 dark:text-slate-100">

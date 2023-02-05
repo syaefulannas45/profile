@@ -2,7 +2,7 @@ let mainProject = document.getElementById("project");
 
 const Project = () => {
   return `
- <div class="lg:pt-[120px] px-4 lg:px-[120px] relative dark:bg-background-100 pb-[450px]">
+ <div class="lg:pt-[120px] px-4 lg:px-[120px] relative dark:bg-background-100 lg:pb-[450px]">
       <h1 class="bg-gradient-to-t from-blues-100 to-blues-200 bg-clip-text text-transparent lg:text-[48px] font-bold text-center relative z-10 text-[38px]">Our Project</h1>
      <p class="text-[16px] lg:text-[20px] text-center dark:text-slate-100 relative z-10 text-slate-800">Berikut adalah project terbaru yang telah kami buat :</p>
      <div class="flex flex-wrap justify-evenly mt-[20px] relative lg:px-16 px-0" id="images-project"></div>

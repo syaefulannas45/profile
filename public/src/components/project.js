@@ -65,7 +65,7 @@ function loopImageProject(url, id, title, desc) {
   const image = `
 
         <div
-          class="cursor-pointer"
+          class="lg:cursor-pointer"
         >
           <img loading="lazy"
             src="./public/images/project/${url}.svg"

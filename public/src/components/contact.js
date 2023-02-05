@@ -30,7 +30,7 @@ const Contact = () => {
                 <a href="https://instagram.com/adcom_official"><i class="fa-brands fa-instagram text-slate-800 dark:text-slate-100"></i></a>
                 </div>
                 <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px] rounded-full flex justify-center items-center px-4 py-4">
-                <a href="https://instagram.com/adcom_official"><i class="fa-brands fa-github text-slate-800 dark:text-slate-100"></i></a>
+                <a href="https://github.com/adcomofficial"><i class="fa-brands fa-github text-slate-800 dark:text-slate-100"></i></a>
                 </div>
                 <div class="bg-gradient-to-t from-blues-100 to-blues-200 w-[30px] h-[30px] rounded-full flex justify-center items-center px-4 py-4">
                 <i class="fa-brands fa-dribbble text-slate-800 dark:text-slate-100"></i>

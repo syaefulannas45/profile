@@ -29,9 +29,9 @@ const Footer = () => {
           <h1 class="bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-[30px] border-b-2 font-semibold border-blues-100">Contact</h1>
           <ul class="flex-col space-y-2 pt-2 text-[12px]">
             <li class="text-slate-800 cursor-pointer dark:text-slate-100" onclick="email()">Email</li>
-            <li class="text-slate-800 cursor-pointer dark:text-slate-100" oncli><a href="https://www.instagram.com/adcom_official/">Instagram</a></li>
-            <li class="text-slate-800 cursor-pointer dark:text-slate-100" onclick="sosmed()">LinkedIn</li>
-            <li class="text-slate-800 cursor-pointer dark:text-slate-100" onclick="sosmed()">Facebook</li>
+            <li class="text-slate-800 cursor-pointer dark:text-slate-100" ><a href="https://www.instagram.com/adcom_official/">Instagram</a></li>
+            <li class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://github.com/adcomofficial/">Github</a></li>
+            <li class="text-slate-800 cursor-pointer dark:text-slate-100"><a href="https://youtube.com/@adcomchannel_">Youtube</a></li>
           </ul>
         </div>
         

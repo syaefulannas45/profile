@@ -2,7 +2,7 @@ let mainContact = document.getElementById("contact");
 
 const Contact = () => {
   return `
-     <div class="relative px-4 lg:px-[120px] lg:h-[420px] dark:bg-background-100 py-10">
+     <div class="relative px-4 lg:px-[120px] lg:h-[420px] dark:bg-background-100 py-12">
      <img loading="lazy" src="public/images/contact/elips.svg" class="absolute lg:top-[-380px] lg:left-10 hover:animate-pulse top-[-380px] left-[128px]" />
      <img loading="lazy" src="public/images/contact/vector-1.svg" class="absolute lg:top-[-280px] lg:right-8 hover:animate-pulse" />
      <img loading="lazy" src="public/images/contact/vector-2.svg" class="absolute lg:top-[-220px] lg:left-0 bottom-0 lg:bottom-0 left-0 hover:animate-pulse mobile:h-[300px]" />

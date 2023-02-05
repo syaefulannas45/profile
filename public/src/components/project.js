@@ -10,8 +10,6 @@ const Project = () => {
      <img loading="lazy" src="public/images/project/vector-2.svg" class="absolute bottom-[400px] left-4 animate-pulse hidden lg:block"/>
      <img loading="lazy" src="public/images/project/vector-3.svg" class="absolute bottom-[450px] left-10 animate-pulse hidden lg:block"/>
      <img loading="lazy" src="public/images/project/vector-4.svg" class="absolute top-4 left-[32%] lg:top-[140px] lg:left-[38%] animate-bounce hidden lg:block"/>
-     <img loading="lazy" src="public/images/project/vector-5.svg" class="absolute lg:top-[500px] top-[200px]  hover:animate-pulse left-[32%] hidden lg:block"/>
-     <img loading="lazy" src="public/images/project/vector-6.svg" class="absolute mobile:h-[70px] top-[310px] left-[71%] lg:top-[150px] lg:left-[61%]"/>
 
      <img loading="lazy" src="public/images/project/vector-8.svg" class="absolute top-[500px] left-[88%] animate-pulse hidden lg:block"/>
  </div>

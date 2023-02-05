@@ -16,7 +16,7 @@ const About = () => {
               Didukung dengan developer berpengalaman menjadikan kami dipercaya oleh berbagai client dari seluruh Indonesia.<br><br>
               Teknologi yang kami gunakan:
             </p>
-            <div id="aboutleft" class="flex lg:space-x-[7%] px-[10%] space-x-[3.5%] lg:p-0 justify-evenyly lg:justify-start flex-wrap w-full"></div>
+            <div id="aboutleft" class="flex lg:space-x-[7%] px-[10%]  lg:p-0 justify-evenly lg:justify-start flex-wrap w-full"></div>
             <img loading="lazy" src="public/images/about/elips-1.svg" class="absolute lg:right-[8%] lg:bottom-[0%] hidden lg:block" />
             <img loading="lazy" src="public/images/about/elips-2.svg" class="absolute lg:right-[0%] lg:bottom-[6%] hidden lg:block" />
           </div>

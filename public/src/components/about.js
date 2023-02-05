@@ -4,7 +4,7 @@ const About = () => {
   return `
   <div class="pt-[1%] lg:pt-[100px] dark:bg-background-100 px-4 lg:px-[120px] w-full overflow-hidden pb-[100px] lg:pb-10">
         <div class="relative">
-        <img loading="lazy" src="public/images/about/vector-1.svg" alt="vector" class="absolute lg:top-[0%] lg:left-[-9%] top-[9%] left-[-4%] z-40 lg:block hidden" />
+        <img loading="lazy" src="public/images/about/vector-1.svg" alt="vector" class="absolute lg:top-[0%] lg:left-[-9%] top-[9%] left-0 z-40 lg:block hidden" />
         <img loading="lazy" src="public/images/about/vector-3.svg" alt="vector" class="absolute lg:top-[0%] lg:left-[-9%] top-[6%] left-[-4%] z-40 lg:hidden block" />
         <h1 class="lg:text-[48px] font-bold bg-gradient-to-r from-blues-100 to-blues-200 bg-clip-text text-transparent text-center text-[35px]">Nawasena Group</h1>
         <p class="text-slate-800 text-[15px] lg:text-[20px] text-center dark:text-slate-100">A Growing startup from STMIK IKMI Cirebon</p>
